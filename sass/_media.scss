@@ -1,0 +1,500 @@
+@media (max-width: 1599px) {
+    .h2 {
+        font-size: 54px;
+    }
+    .h4 {
+        font-size: 36px;
+    }
+    .hero-sec {
+        padding: 70px 0;
+    }
+    .hero-list-wrap .list-hero .list-group-item {
+        padding: 20px 40px;
+        max-width: 270px;
+        border-bottom-width: 4px;
+    }
+    .hero-list-wrap .list-hero .list-group-item img {
+        max-width: 72px;
+    }
+    .hero-list-wrap .list-hero .list-group-item .p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .btn.bttn-primary, .btn.bttn-secondary, .btn.bttn-light, 
+    .btn.bttn-outline-primary, .btn.bttn-outline-secondary {
+        height: 45px;
+        padding: 0 36px;
+    }
+    .hero-list-wrap .list-hero .list-group-item {
+        padding: 20px 40px;
+        max-width: 240px;
+        border-bottom-width: 3px;
+    }
+    .hero-list-wrap .list-hero .list-group-item:nth-child(1) {
+        border-top-left-radius: 70px;
+    }
+    .srvc-sec {
+        padding: 80px 0;
+    }
+    .srvc-sec::before {
+        width: 680px;
+    }
+    .homepage .talk-to-expert-sec {
+        padding-top: 210px;
+        padding-bottom: 70px;
+    }
+    .talk-to-expert-sec {
+        border-bottom-right-radius: 200px;
+    }
+    .common-footer .footer-wrap .footer-main-nav-wrap {
+        padding-left: 50px;
+    }
+    .common-footer .footer-wrap .footer-subs .ttl {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /* industry page */
+    .ttl-wrapper.hero-ttl-wrapper .hero-title {
+        padding-right: 60px;
+    }
+    .ttl-wrapper.hero-ttl-wrapper .hero-p {
+        padding-left: 60px;
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 400px;
+    }
+
+    .twocol-card .ttl {
+        font-size: 44px;
+        line-height: 48px;
+        margin-bottom: 25px;
+    }
+    .twocol-card .p {
+        margin-bottom: 30px;
+    }
+    .twocol-card-img {
+        max-width: 460px;
+    }
+}
+
+@media (max-width: 1599px) and (min-width: 1400px) {
+}
+
+@media only screen and (max-width: 1400px) {
+    .srvc-card {
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width: 1399px) and (min-width: 1200px) {  
+    .h2 {
+        font-size: 42px;
+    }  
+    .h3 {
+        font-size: 38px;
+    }
+    .h4 {
+        font-size: 32px;
+    }
+
+    
+    .sec-title.h2 {
+        line-height: 54px;
+    }
+    .sec-title.h3 {
+        line-height: 48px;
+    }
+    .common-section .ttl-wrapper .p {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .hero-list-wrap .list-hero .list-group-item img {
+        max-width: 60px;
+    }
+    .hero-list-wrap .list-hero {
+        bottom: -50px;
+    }
+    .solns-card .solns-img {
+        padding: 15px;
+        max-width: 240px;
+    }
+    .solns-card .solns-body .num {
+        font-size: 26px;
+    }
+    .solns-card .solns-body .ttl {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .solns-card .solns-body {
+        padding: 20px 36px 20px 16px;
+    }
+    .solns-card .solns-body .p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .solsns-sec {
+        border-bottom-left-radius: 240px;
+    }
+    .top-cert-companies .list-group-item {
+        height: 80px;
+        width: 80px;
+        margin: 20px;
+    }
+
+
+    /* industry page */
+    .ttl-wrapper.hero-ttl-wrapper .hero-p {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .twocol-card .ttl {
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+    .twocol-card .p {
+        margin-bottom: 20px;
+    }
+    .twocol-card-img {
+        max-width: 420px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .h2 {
+        font-size: 38px;
+    }  
+    .h3 {
+        font-size: 34px;
+    }
+    .h4 {
+        font-size: 30px;
+    }
+
+    
+    .sec-title.h2 {
+        line-height: 48px;
+    }
+    .sec-title.h3 {
+        line-height: 45px;
+    }
+
+
+    .hero-list-wrap .list-hero {
+        justify-content: center;
+        position: static;
+        margin: 40px auto 0;
+    }
+    .first-sec {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .common-section .sec-p {
+        max-width: 600px;
+        font-size: 16px;
+    }
+    .srvc-cards-wrapper {
+        max-width: 660px;
+        margin: auto;
+    }
+    .common-section .ttl-wrapper .p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .solns-card {
+        margin: auto;
+    }
+    .solns-card .solns-img {
+        padding: 15px;
+        max-width: 240px;
+    }
+    .solns-card .solns-body .num {
+        font-size: 26px;
+    }
+    .solns-card .solns-body .ttl {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .solns-card .solns-body {
+        padding: 20px 36px 20px 16px;
+    }
+    .solns-card .solns-body .p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .soln-carousel.owl-carousel .owl-nav {
+        text-align: right;
+        margin-right: 150px;
+        margin-top: 20px;
+    }
+    .srvc-sec::before {
+        width: 920px;
+    }
+    .solsns-sec {
+        border-bottom-left-radius: 0;
+    }
+    .solsns-sec .ttl-wrapper .sec-title.left,
+    .solsns-sec .ttl-wrapper .p {
+        text-align: center;
+    }
+    .list-companies-carousel-wrap {
+        max-width: 720px;
+        margin: auto;
+    }
+    .top-cert-companies .list-group-item {
+        height: 80px;
+        width: 80px;
+        margin: 20px;
+    }
+
+    /* industry page */
+    .ttl-wrapper.hero-ttl-wrapper .hero-title {
+        padding-right: 30px;
+    }
+    .ttl-wrapper.hero-ttl-wrapper .hero-p {
+        padding-left: 30px;
+        font-size: 22px;
+        line-height: 30px;
+        max-width: 300px;
+    }
+
+    .twocol-card .ttl {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+    .twocol-card .p {
+        margin-bottom: 20px;
+    }
+    .twocol-card-img {
+        max-width: 380px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .comman-header .navbar .navbar-brand {
+        height: 42px;
+    }
+    
+    .h2 {
+        font-size: 36px;
+    }  
+    .h3 {
+        font-size: 32px;
+    }
+    .h4 {
+        font-size: 28px;
+    }
+
+    
+    .sec-title.h2 {
+        line-height: 48px;
+    }
+    .sec-title.h3 {
+        line-height: 45px;
+    }
+
+
+    .hero-sec {
+        border-radius: 0;
+    }
+    .srvc-sec::before {
+        border-radius: 0;
+    }
+    .soln-carousel.owl-carousel .owl-nav {
+        margin-right: 30px;
+    }
+    .list-companies-carousel-wrap {
+        max-width: 100%;
+    }
+    .list-companies .list-group-item {
+        padding: 15px 50px;
+        min-height: 66px;
+    }
+    .top-cert-companies .list-group-item {
+        height: 60px;
+        width: 60px;
+        margin: 20px 10px;
+    }
+
+
+    .common-footer .footer-wrap .footer-logo {
+        text-align: center;
+    }
+    .common-footer .footer-wrap .footer-subs {
+        max-width: 520px;
+        margin: auto auto 40px;
+    }
+    .common-footer .footer-wrap .scl-nav-wrap {
+        max-width: 170px;
+        margin: 30px auto 0;
+    }
+    .common-footer .footer-wrap .scl-ttl {
+        text-align: center;
+    }
+    .common-footer .footer-wrap {
+        padding-bottom: 30px;
+    }
+    .common-footer .footer-wrap .footer-main-nav-wrap .nav .nav-link {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    .common-footer .cred-footer .nav {
+        justify-content: center;
+    }
+    .common-footer .cred-footer .credits-p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+    /* industry page */
+
+    .ttl-wrapper.hero-ttl-wrapper {
+        display: block;
+    }
+    .ttl-wrapper.hero-ttl-wrapper .hero-title {
+        padding-right: 0;
+        display: block;
+        border-right: 0;
+        padding-left: 10px;
+    }
+    .ttl-wrapper.hero-ttl-wrapper .hero-p {
+        padding-left: 10px;
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 300px;
+    }
+
+    .twocol-card .ttl {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+    .twocol-card .p {
+        margin-bottom: 30px;
+    }
+    .twocol-card-img {
+        max-width: 420px;
+        margin: 0 auto 50px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 575px) {
+
+    .comman-header .navbar .navbar-brand {
+        height: 36px;
+    }
+
+
+    .h2 {
+        font-size: 32px;
+    }  
+    .h3 {
+        font-size: 30px;
+    }
+    .h4 {
+        font-size: 25px;
+    }
+
+    
+    .sec-title.h2 {
+        line-height: 44px;
+    }
+    .sec-title.h3 {
+        line-height: 40px;
+    }
+
+
+    .hero-list-wrap .list-hero {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero-list-wrap .list-hero .list-group-item:nth-child(1) {
+        border-top-left-radius: 0;
+    }
+    .hero-list-wrap .list-hero .list-group-item {
+        align-self: center;
+        max-width: 280px;
+    }
+
+
+    .srvc-card {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    .solns-card {
+        margin: auto;
+        flex-direction: column;
+    }
+    .solns-card .solns-img {
+        padding: 15px;
+        max-width: 100%;
+        height: 160px;
+        overflow: hidden;
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .top-cert-companies {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .top-cert-wrap {
+        border-top-right-radius: 0;
+        margin-bottom: 0;
+        padding: 70px 15px;
+    }
+    .homepage .talk-to-expert-sec {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .talk-to-expert-sec {
+        border-bottom-right-radius: 0;
+    }
+    .common-footer .footer-wrap .footer-subs {
+        padding: 0 20px;
+    }
+    .common-footer .footer-wrap .footer-main-nav-wrap {
+        padding-left: 10px;
+    }
+    .common-footer .footer-wrap .footer-main-nav-wrap .nav .nav-link.ttl {
+        margin-top: 20px;
+    }
+
+
+
+    /* industry page */
+    .twocol-sec {
+        padding: 70px 0;
+    }
+    .twocol-card-img {
+        max-width: 300px;
+        margin: 0 auto 50px;
+    }
+    .twocol-card {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .twocol-card .ttl {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    .twocol-card .p {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+
+}
+
