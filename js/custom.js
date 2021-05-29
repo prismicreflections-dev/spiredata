@@ -70,6 +70,15 @@ $(document).ready(function() {
 		navText: ["<img src='images/prev_carousel_img.svg' alt='<'>", "<img src='images/next_carousel_img.svg' alt='>'>"],
 	});
 
+	$('.explore-srvc-carousel-mob').owlCarousel({
+		loop:true,
+		margin: 40,
+		stagePadding: 20,
+		nav: false,
+		dots: true,
+		items: 1,
+	});
+
 	$('.indus-carousel').owlCarousel({
 		loop:true,
 		autoplay: true,
@@ -94,4 +103,30 @@ $(document).ready(function() {
 			}
 		}
 	});
+
+	$('.partner-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 20,
+		stagePadding: 30,
+		nav: false,
+		dots: false,
+		items: 4,
+		responsive:{
+			0:{
+				items:1
+			},
+			768:{
+				items:2
+			},
+			992:{
+				items:3, dots: true
+			},
+			1199:{
+				items:4
+			}
+		}
+	});
+
+	
 });

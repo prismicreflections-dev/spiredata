@@ -5,6 +5,12 @@
     .h4 {
         font-size: 36px;
     }
+
+    .ttl-wrapper.hero-ttl-wrapper .hero-title {
+        line-height: 64px;
+        font-size: 56px;
+    }
+
     .hero-sec {
         padding: 70px 0;
     }
@@ -76,6 +82,12 @@
     .twocol-card-img {
         max-width: 460px;
     }
+
+    /* cntc page */
+    .cntc-page-form-wrap {
+        right: 15vw;
+    }
+
 }
 
 @media (max-width: 1599px) and (min-width: 1400px) {
@@ -97,6 +109,12 @@
     .h4 {
         font-size: 32px;
     }
+
+
+    .ttl-wrapper.hero-ttl-wrapper .hero-title {
+        line-height: 60px;
+        font-size: 48px;
+    }  
 
     
     .sec-title.h2 {
@@ -160,6 +178,18 @@
     .twocol-card-img {
         max-width: 420px;
     }
+
+    /* contct page */
+    .cntc-page-form-wrap {
+        width: 440px;
+        right: 12vw;
+        padding: 30px 30px;
+    }
+    .cntc-inf .cntc-inf-body {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
 }
 
 @media only screen and (max-width: 1199px) {
@@ -172,6 +202,12 @@
     }
     .h4 {
         font-size: 30px;
+    }
+
+
+    .ttl-wrapper.hero-ttl-wrapper .hero-title {
+        line-height: 54px;
+        font-size: 42px;
     }
 
     
@@ -273,6 +309,89 @@
     .twocol-card-img {
         max-width: 380px;
     }
+
+    /* srvc page */
+    .explore-srvc-carousel .owl-nav .owl-next {
+        display: none;
+    }
+    .explore-srvc-carousel-wrap {
+        margin: 0 0px;
+    }
+    .explore-srvc-carousel .owl-dots {
+        text-align: center;
+        top: -15px;
+        left: 0;
+    }
+    .explore-srvc-sec .ttl-wrapper .sec-title {
+        line-height: 45px;
+        text-align: center;
+    }
+    .explore-srvc-sec .ttl-wrapper .p {
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 560px;
+        text-align: center;
+        margin: 30px auto;
+    }
+    .explore-srvc-card {
+        padding: 30px 30px 30px;
+    }
+    .explore-srvc-card .p {
+        font-size: 20px;
+    }
+    .explore-srvc-card.yellow {
+        margin-left: 0px;
+    }
+
+    .indus-sec .ttl-wrapper .sec-title {
+        text-align: center;
+    }
+    .indus-sec .ttl-wrapper .p {
+        text-align: center;
+    }
+    .indus-sec {
+        border-top-left-radius: 180px;
+        padding-bottom: 40px;
+    }
+    .indus-card {
+        border-radius: 0 60px 0 30px;
+        -webkit-border-radius: 0 60px 0 30px;
+        -moz-border-radius: 0 60px 0 30px;
+        -ms-border-radius: 0 60px 0 30px;
+        -o-border-radius: 0 60px 0 30px;
+        padding: 20px 30px 10px;
+    }
+    .indus-card .explore-srvc-card-img {
+        max-width: 70px;
+    }
+    .indus-card .p {
+        font-size: 20px;
+    }
+
+    /* contact page */
+    .cntc-page-form-wrap {
+        width: 400px;
+        top: 60px;
+        right: 4vw;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding: 30px 30px;
+    }
+    .cntc-inf {
+        margin-bottom: 10px;
+    }
+    .cntc-inf .cntc-inf-icon i {
+        font-size: 18px;
+        min-width: 30px;
+    }
+    .cntc-inf .cntc-inf-body {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -289,6 +408,12 @@
     }
     .h4 {
         font-size: 28px;
+    }
+
+    .ttl-wrapper.hero-ttl-wrapper .hero-title {
+        line-height: 40px;
+        font-size: 36px;
+        margin-bottom: 20px;
     }
 
     
@@ -352,6 +477,14 @@
         font-size: 12px;
         text-align: center;
     }
+    .talk-to-expert-sec {
+        border-bottom-right-radius: 0;
+    }
+    .common-section .ttl-wrapper .p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
 
 
     /* industry page */
@@ -384,9 +517,79 @@
         max-width: 420px;
         margin: 0 auto 50px;
     }
+
+
+    /* srvc page */
+    .explore-srvc-card .explore-srvc-card-img {
+        max-width: 60px;
+        margin-bottom: 20px;
+    }
+    .explore-srvc-card {
+        padding: 30px 20px 20px;
+    }
+    .explore-srvc-card .p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .srvcpage .hero-sec {
+        background: url("../images/services-hero-bg.png");
+        background-position: center;
+    }
+    .indus-sec {
+        border-top-left-radius: 0;
+        padding: 70px 0 30px;
+    }
+    .indus-card {
+        border-radius: 0 60px 0 30px;
+        -webkit-border-radius: 0 60px 0 30px;
+        -moz-border-radius: 0 60px 0 30px;
+        -ms-border-radius: 0 60px 0 30px;
+        -o-border-radius: 0 60px 0 30px;
+        padding: 20px 30px 10px;
+    }
+    .indus-card .explore-srvc-card-img {
+        max-width: 70px;
+    }
+    .indus-card .p {
+        font-size: 20px;
+    }
+    .indus-sec .ttl-wrapper .sec-title {
+        line-height: 30px;
+    }
+    .indus-carousel-wrap {
+        margin: 20px 40px 20px;
+    }
+
+
+    /* contact page */
+    .cntc-page-form-wrap {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: auto;
+        max-width: 480px;
+        margin: auto;
+    }
+    .cntc-page-form-wrap .fm-mb {
+        margin-bottom: 30px;
+    }
+    .cont-sec2 {
+        padding: 70px 0;
+    }
+    .cont-sec2 .p {
+        margin-bottom: 50px;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 576px) {
+    .explore-srvc-sec .explore-srvc-carousel {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -404,6 +607,12 @@
     }
     .h4 {
         font-size: 25px;
+    }
+
+
+    .ttl-wrapper.hero-ttl-wrapper .hero-title {
+        line-height: 36px;
+        font-size: 26px;
     }
 
     
@@ -495,6 +704,51 @@
         margin-bottom: 30px;
         font-size: 14px;
     }
+
+
+    /* srvcs page */
+    .explore-srvc-sec {
+        padding: 50px 0 30px;
+    }
+    .explore-srvc-card {
+        padding: 30px 40px 30px;
+    }
+    .explore-srvc-carousel-wrap {
+        margin: 0 0px;
+    }
+    .explore-srvc-sec .explore-srvc-carousel {
+        display: none;
+    }
+    .explore-srvc-carousel-mob .owl-dots {
+        position: relative;
+        top: -20px;
+    }
+    .indus-card .explore-srvc-card-img {
+        max-width: 60px;
+    }
+    .indus-card .p {
+        font-size: 18px;
+    }
+
+    /* contact page */
+    .cntcpage .hero-sec .ttl-wrapper.hero-ttl-wrapper .hero-p {
+        padding-left: 10px;
+        margin-top: 0px;
+    }
+    .cont-sec2 .p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+    .cntc-inf .cntc-inf-icon i {
+        margin-left: 10px;
+    }
+    .cntc-inf .cntc-inf-body {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
 
 }
 

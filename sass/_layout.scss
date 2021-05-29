@@ -307,11 +307,11 @@ code {color: #21D885;}
 
 
 .common-section {
-    .bg-light {
-        background: #F5F9FD;
+    &.bg-light {
+        background-color: #F5F9FD !important;
     }
-    .bg-dark {
-        background: #2C3E50;
+    &.bg-dark {
+        background-color: #2C3E50 !important;
     }
     .ttl-wrapper {
         margin-bottom: 30px;
@@ -351,9 +351,10 @@ code {color: #21D885;}
     justify-content: center;
     margin: 0 0 15px;
     .list-group-item {
+        position: relative;
         margin: 0 12px;
         border: 0;
-        padding: 20px 50px;
+        // padding: 20px 50px;
         background: #FFFFFF;
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.03);
         border-radius: 5px;
@@ -361,9 +362,21 @@ code {color: #21D885;}
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
+        min-height: 101px;
+        flex: 1 1 0;
+        max-width: 220px;
         img {
             object-fit: cover;
-        }
+            position: absolute;
+            width: auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+}
     }
 }
 
@@ -938,6 +951,7 @@ code {color: #21D885;}
 
 /* contact page */
 .cntcpage .hero-sec {
+    position: relative;
     background: url('../images/cntc-hero-bg.png');
     .ttl-wrapper.hero-ttl-wrapper .hero-title {
         display: block;
@@ -977,3 +991,108 @@ code {color: #21D885;}
         color: #000000;
     }
 } 
+.cntc-page-form-wrap {
+    display: block;
+    width: 480px;
+    position: absolute;
+    top: 100px;
+    left: auto;
+    right: 400px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    padding: 40px 50px;
+    .fm-mb {
+        margin-bottom: 40px;        
+    }
+    .btn {
+        display: block;
+        margin-left: 0;
+    }
+    .form-control {
+        border: 0;
+        border-bottom: 1px solid #EBF1F6;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2C3E50;
+        &:focus {
+            border-color: #21D885;
+        }
+        &::placeholder {
+            font-size: 16px;
+            line-height: 24px;
+            color: #717D89;
+        }
+    }
+}
+
+
+
+/* solutions page */
+.solnpage {
+    .hero-sec {
+        position: relative;
+        background: url('../images/soln-hero-bg.png');
+        .ttl-wrapper.hero-ttl-wrapper .hero-p {
+            max-width: 720px;
+        }
+    }    
+}
+
+
+
+/* Partners page */
+.prtnrpage {
+    .hero-sec {
+        position: relative;
+        background: url('../images/prtnr-hero-bg.png');
+        .ttl-wrapper.hero-ttl-wrapper .hero-p {
+            max-width: 720px;
+        }
+    }    
+}
+.partners-card {
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    margin: 30px 0;
+    padding: 50px 36px;
+    border-top: 10px solid #ccc;
+    &.orange {border-color: #F87306;}
+    &.green {border-color: #21D885;}
+    &.yellow {border-color: #FBBC05;}
+    &.blue {border-color: #01C3FF;}
+    .ttl {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: normal;
+        color: #2C3E50;
+    }
+    .p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        color: #717D89;
+        margin-bottom: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
