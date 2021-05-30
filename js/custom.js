@@ -17,6 +17,8 @@ $(document).ready(function () {
   // 	$(".refer-form-sec").removeClass("active");
   // });
 
+  $(".loader").delay('600').fadeOut("5000");
+
   $(".common-header-wrap").load("include/header.html");
   $(".common-footer-wrap").load("include/footer.html");
   $(".soln-card-carousel").owlCarousel({
