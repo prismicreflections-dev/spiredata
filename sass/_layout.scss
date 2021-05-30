@@ -294,7 +294,7 @@ code {color: #21D885;}
 }
 .talk-to-expert-sec {
     position: relative;
-    background: url('../images/talk_to_exprt_bg.png') no-repeat center, linear-gradient(180deg, #52DBE7 0%, #00BFD0 100%);
+    background: url('../images/talk_to_exprt_bg.png') no-repeat center;
     background-size: cover !important;
     text-align: center;
     border-radius: 0 0 240px 0;
@@ -303,8 +303,11 @@ code {color: #21D885;}
     -ms-border-radius: 0 0 240px 0;
     -o-border-radius: 0 0 240px 0;
     z-index: 1;
+    .sec-title {
+        max-width: 1048px;
+        margin: 30px auto 40px
+    }
 }
-
 
 .common-section {
     &.bg-light {
