@@ -423,7 +423,7 @@ code {color: #21D885;}
     justify-content: center;
     .list-group-item {
         position: relative;
-        margin: 30px;
+        margin: 30px auto;
         display: block;
         height: 103px;
         width: 103px;
@@ -460,6 +460,10 @@ code {color: #21D885;}
         top: -40px;
         left: -90px;
     }
+}
+.top-cert-logo-wrap {
+    max-width: 920px;
+    margin: auto;
 }
 .four-borders {
     position: absolute;

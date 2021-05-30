@@ -164,6 +164,52 @@ $(document).ready(function() {
 		items: 1,
 	});
 
+	$('.recog-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 10,
+		stagePadding: 10,
+		nav: false,
+		dots: true,
+		items: 6,
+		responsive:{
+			0:{
+				items:3, dots: true, margin: 30,
+			},
+			768:{
+				items:4, dots: true, margin: 30,
+			},
+			992:{
+				items:4, dots: true, margin: 30,
+			},
+			1199:{
+				items:6
+			}
+		}
+	});
+
+	$('.hero-list-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 0,
+		stagePadding: 10,
+		nav: false,
+		dots: true,
+		items: 1
+	});
+	
+	$('.srvc-cards-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 10,
+		stagePadding: 10,
+		nav: false,
+		dots: true,
+		items: 1
+	});
+	
+
+	
 
 	
 
