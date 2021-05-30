@@ -17,6 +17,8 @@ $(document).ready(function() {
 	// 	$(".refer-form-sec").removeClass("active");
 	// });
 
+	$(".common-header-wrap").load("include/header.html");
+	$(".common-footer-wrap").load("include/footer.html");
 	$('.soln-carousel').owlCarousel({
 		loop:true,
 		margin:10,
