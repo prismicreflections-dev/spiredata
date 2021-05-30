@@ -216,3 +216,31 @@
 	margin-bottom: 30px;
 	padding: 20px;
 }
+.for-home-show{
+  display: none;
+}
+.home-expert-sec-adj{
+  .talk-to-expert-sec{
+    .ttl-wrapper {
+      margin-top: 80px;
+      .for-home-show{
+        display: block;
+      }
+      .for-home-hide{
+        display: none;
+      }
+    }
+  }
+}
+.active-a{color: #F87306 !important;}
+.hero-para{
+  font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 59px;
+color: #FFFFFF;
+opacity: 0.79;
+}
+.partners-card{
+  min-height: 250px;
+}

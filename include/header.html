@@ -8,7 +8,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto">      
+                        <li class="nav-item pr-nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>                  
                         <li class="nav-item pr-nav-item">
                             <a class="nav-link" href="solutions.html">Solutions</a>
                         </li>
@@ -17,6 +20,9 @@
                         </li>
                         <li class="nav-item pr-nav-item">
                             <a class="nav-link" href="partner.html">Partners</a>
+                        </li>
+                        <li class="nav-item pr-nav-item">
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item pr-nav-item">
                             <button type="button" onclick="location.href='contact.html'" class="btn bttn-primary">Get in
@@ -30,9 +36,7 @@
 </header>
 
 <script type="text/javascript">
-
     $(document).ready(function () {
-
 
         //active tab
         var wid = $(window).width();
@@ -42,8 +46,8 @@
             $('.common-header .navbar .pr-nav-item').each(function () {
                 var href = $(this).find('a.nav-link').attr('href');
                 if (href === pageURL) {
-                    $('.common-header .navbar .pr-nav-item').removeClass('active-a');
-                    $('.common-header .navbar .pr-nav-item').addClass('text-success');
+                    $('.common-header .navbar .pr-nav-item .nav-link').removeClass('active-a');
+                    $(this).find('a.nav-link').addClass('text-success');
                 }
             });
         }
