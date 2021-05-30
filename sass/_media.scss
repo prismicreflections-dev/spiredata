@@ -189,6 +189,11 @@
         font-size: 20px;
         line-height: 28px;
     }
+    .partner-carousel-wrap{
+        .partners-card{
+            min-height: 280px;
+        }
+    }
 
 }
 
@@ -391,7 +396,15 @@
         font-size: 18px;
         line-height: 30px;
     }
-
+    .soln-tab-sec-inner {
+        margin-left: 30px;
+    }
+    .solution-ul-wrap .divide-li-wrap{
+        display: none;
+    }
+    .soln-tab-sec-adj .soln-tab-sec-tab .nav-link:not(.active) {
+        border: 2px solid #eef1f4;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -580,10 +593,55 @@
     .cont-sec2 .p {
         margin-bottom: 50px;
     }
-
+    .soln-tab-sec-inner {
+        margin-left: 30px;
+    }
+    .soln-tab-sec-adj .soln-tab-sec-tab .nav-link {
+        font-size: 22px;
+        line-height: 32px;
+        width: 250px;
+        height: inherit;
+        margin-bottom: 30px;
+        padding: 15px 20px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    div.google_map {
+        height: 440px;
+    }
+    .talk-to-expert-sec {
+        padding-top: 90px;
+    }
+    .soln-tab-sec-inner {
+        margin-left: 30px;
+    }
+    .soln-tab-sec-adj .soln-tab-sec-tab .nav-link {
+        font-size: 16px;
+        line-height: 25px;
+        min-width: 200px;
+        height: inherit;
+        padding: 15px 20px;
+        margin: 15px 15px 25px 0;
+        width: auto;
+    }
+    .d-flex.align-items-start.soln-tab-sec-tab{
+        flex-direction: column-reverse !important;
+        .soln-oveflow-auto{
+            overflow: auto;
+            width: 100%;
+        }
+        .nav.nav-pills {
+            display: flex;
+            flex-direction: row !important;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: stretch;
+            align-content: stretch;
+            overflow: auto;
+        }
+    }
+    .error-sec-wrapper a{margin-top: 10px;}
 }
 
 @media only screen and (min-width: 576px) {
