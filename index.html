@@ -14,39 +14,7 @@
 </head>
 <body class="homepage">
 
-<<<<<<< HEAD
-    <header class="comman-header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="home.html"><img src="images/logo.svg" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item pr-nav-item">
-                                <a class="nav-link" href="solutions.html">Solutions</a>
-                            </li>
-                            <li class="nav-item pr-nav-item">
-                                <a class="nav-link" href="industry.html">Industries</a>
-                            </li>
-                            <li class="nav-item pr-nav-item">
-                                <a class="nav-link" href="partner.html">Partners</a>
-                            </li>
-                            <li class="nav-item pr-nav-item">
-                                <button type="button" onclick="location.href='contact.html'" class="btn bttn-primary">Get in Touch</button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-=======
     <div class="common-header-wrap"></div>
->>>>>>> 8e4ffdd199b5499b26786d7a23c1e6e1ec7c2d04
 
     <div class="inner-body">
 
@@ -58,13 +26,13 @@
                             <h2 class="h2 sec-title left light">Your digital enterprise.</h2>
                         </div>
                         <p class="sec-p left">Our intensive data science <br>ecosystem to help you win.</p>
-                        <button type="button" onclick="location.href='contact.html'" class="btn bttn-primary sec-bttn left">Get Started</button>
+                        <a><button type="button" class="btn bttn-primary sec-bttn left">Get Started</button></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
                         <div class="hero-list-wrap">
-                            <ul class="list-group list-group-horizontal list-hero">
+                            <ul class="list-group list-group-horizontal list-hero hide-mob">
                                 <li class="list-group-item">
                                     <img src="images/hero_1.svg" alt="img">
                                     <p class="p">Build Actionable Insights</p>
@@ -82,6 +50,41 @@
                                     <p class="p">Seamless Adoption of AI and ML</p>
                                 </li>
                             </ul>
+                            <div class="hero-list-carousel owl-carousel owl-theme hide-desktop">
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-hero">
+                                        <li class="list-group-item">
+                                            <img src="images/hero_1.svg" alt="img">
+                                            <p class="p">Build Actionable Insights</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-hero">
+                                        <li class="list-group-item">
+                                            <img src="images/hero_2.svg" alt="img">
+                                            <p class="p">Enable Data Driven Culture </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-hero">
+                                        <li class="list-group-item">
+                                            <img src="images/hero_3.svg" alt="img">
+                                            <p class="p">Modernize Your Data Asset</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-hero">
+                                        <li class="list-group-item">
+                                            <img src="images/hero_4.svg" alt="img">
+                                            <p class="p">Seamless Adoption of AI and ML</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -97,7 +100,7 @@
                         </div>
                         <p class="sec-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s
                             standard dummy. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
-                        <button type="button" class="btn bttn-outline-primary sec-bttn">Know More</button>
+                        <a href="about.html"><button type="button" class="btn bttn-outline-primary sec-bttn">Know More</button></a>
                     </div>
                 </div>
             </div>
@@ -113,9 +116,9 @@
                     </div>
                     <div class="col-xl-7 align-self-center">
                         <div class="srvc-cards-wrapper">
-                            <div class="row">
+                            <div class="row hide-mob">
                                 <div class="col-sm-4">
-                                    <div class="srvc-card st">
+                                    <div class="srvc-card st"  onclick="window.open('services.html');">
                                         <div class="srvc-card-img">
                                             <img src="images/srvc_1.png" alt="img">
                                         </div>
@@ -123,7 +126,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
-                                    <div class="srvc-card st">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
                                         <div class="srvc-card-img">
                                             <img src="images/srvc_2.png" alt="img">
                                         </div>
@@ -131,7 +134,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
-                                    <div class="srvc-card st">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
                                         <div class="srvc-card-img">
                                             <img src="images/srvc_3.png" alt="img">
                                         </div>
@@ -139,7 +142,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
-                                    <div class="srvc-card st">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
                                         <div class="srvc-card-img">
                                             <img src="images/srvc_4.png" alt="img">
                                         </div>
@@ -147,7 +150,7 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
-                                    <div class="srvc-card st">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
                                         <div class="srvc-card-img">
                                             <img src="images/srvc_5.png" alt="img">
                                         </div>
@@ -155,11 +158,65 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
-                                    <div class="srvc-card st">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
                                         <div class="srvc-card-img">
                                             <img src="images/srvc_6.png" alt="img">
                                         </div>
                                         <p class="p">Data <br>Engineering</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row hide-desktop">
+                                <div class="col-12">
+                                    <div class="srvc-cards-carousel owl-carousel owl-theme">
+                                        <div class="item">
+                                            <div class="srvc-card st"  onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_1.png" alt="img">
+                                                </div>
+                                                <p class="p">Data Strategy Governance</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_2.png" alt="img">
+                                                </div>
+                                                <p class="p">BI Augumented Analytics</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_3.png" alt="img">
+                                                </div>
+                                                <p class="p">Artifical Intelligence</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_4.png" alt="img">
+                                                </div>
+                                                <p class="p">Enterprise-Data Platform-re</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_5.png" alt="img">
+                                                </div>
+                                                <p class="p">Cyber <br>Analytics</p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_6.png" alt="img">
+                                                </div>
+                                                <p class="p">Data <br>Engineering</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -184,7 +241,7 @@
                         <div class="soln-carousel-wrap">
                             <div class="soln-carousel owl-carousel owl-theme">
                                 <div class="item">
-                                    <div class="solns-card d-flex align-items-center">
+                                    <div class="solns-card d-flex align-items-center" onclick="window.open('solutions.html');">
                                         <div class="solns-img flex-shrink-0">
                                             <img src="images/sols-card-1.png" alt="img">
                                         </div>
@@ -197,7 +254,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="solns-card d-flex align-items-center">
+                                    <div class="solns-card d-flex align-items-center" onclick="window.open('solutions.html');">
                                         <div class="solns-img flex-shrink-0">
                                             <img src="images/sols-card-2.png" alt="img">
                                         </div>
@@ -210,7 +267,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="solns-card d-flex align-items-center">
+                                    <div class="solns-card d-flex align-items-center" onclick="window.open('solutions.html');">
                                         <div class="solns-img flex-shrink-0">
                                             <img src="images/sols-card-3.png" alt="img">
                                         </div>
@@ -223,7 +280,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="solns-card d-flex align-items-center">
+                                    <div class="solns-card d-flex align-items-center" onclick="window.open('solutions.html');">
                                         <div class="solns-img flex-shrink-0">
                                             <img src="images/sols-card-4.png" alt="img">
                                         </div>
@@ -258,35 +315,35 @@
                                 <div class="item">
                                     <ul class="list-group list-group-horizontal list-companies">
                                         <li class="list-group-item">
-                                            <img src="images/recog_1.png" alt="img">
+                                            <img src="images/elastic_logo.png" alt="img">
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="item">
                                     <ul class="list-group list-group-horizontal list-companies">
                                         <li class="list-group-item">
-                                            <img src="images/recog_2.png" alt="img">
+                                            <img src="images/fivetran_logo.png" alt="img">
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="item">
                                     <ul class="list-group list-group-horizontal list-companies">
                                         <li class="list-group-item">
-                                            <img src="images/recog_3.png" alt="img">
+                                            <img src="images/nipendo_logo.png" alt="img">
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="item">
                                     <ul class="list-group list-group-horizontal list-companies">
                                         <li class="list-group-item">
-                                            <img src="images/recog_4.png" alt="img">
+                                            <img src="images/cribl_logo.png" alt="img">
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="item">
                                     <ul class="list-group list-group-horizontal list-companies">
                                         <li class="list-group-item">
-                                            <img src="images/recog_5.png" alt="img">
+                                            <img src="images/ms_logo.png" alt="img">
                                         </li>
                                     </ul>
                                 </div>
@@ -294,28 +351,35 @@
                                 <div class="item">
                                     <ul class="list-group list-group-horizontal list-companies">
                                         <li class="list-group-item">
-                                            <img src="images/recog_6.png" alt="img">
+                                            <img src="images/3data_logo.png" alt="img">
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="item">
                                     <ul class="list-group list-group-horizontal list-companies">
                                         <li class="list-group-item">
-                                            <img src="images/recog_7.png" alt="img">
+                                            <img src="images/alteryx_logo.png" alt="img">
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="item">
                                     <ul class="list-group list-group-horizontal list-companies">
                                         <li class="list-group-item">
-                                            <img src="images/recog_8.png" alt="img">
+                                            <img src="images/snowflake_logo.png" alt="img">
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="item">
                                     <ul class="list-group list-group-horizontal list-companies">
                                         <li class="list-group-item">
-                                            <img src="images/recog_9.png" alt="img">
+                                            <img src="images/talend_logo.png" alt="img">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/AWS_logo.png" alt="img">
                                         </li>
                                     </ul>
                                 </div>
@@ -329,26 +393,71 @@
                             <p class="p p1 fw-700 ttl">Every recognition inspires the next</p>
                             <p class="p">We work to help companies win with data and AI. Our achievements are a testament to this </p>
                             <div class="top-cert-logo-wrap">
-                                <ul class="list-group list-group-horizontal top-cert-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/jet_logo.png" alt="img">
-                                    </li>
-                                    <li class="list-group-item">
-                                        <img src="images/zero_logo.png" alt="img">
-                                    </li>
-                                    <li class="list-group-item">
-                                        <img src="images/solvebio_logo.png" alt="img">
-                                    </li>
-                                    <li class="list-group-item">
-                                        <img src="images/imec_logo.png" alt="img">
-                                    </li>
-                                    <li class="list-group-item">
-                                        <img src="images/agroknow_logo.png" alt="img">
-                                    </li>
-                                    <li class="list-group-item">
-                                        <img src="images/csx_logo.png" alt="img">
-                                    </li>
-                                </ul>
+                                <div class="recog-carousel owl-carousel owl-theme">
+                                    <div class="item">
+                                        <ul class="list-group list-group-horizontal top-cert-companies">
+                                            <li class="list-group-item">
+                                                <img src="images/recog_1.png" alt="img">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul class="list-group list-group-horizontal top-cert-companies">
+                                            <li class="list-group-item">
+                                                <img src="images/recog_2.png" alt="img">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul class="list-group list-group-horizontal top-cert-companies">
+                                            <li class="list-group-item">
+                                                <img src="images/recog_3.png" alt="img">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul class="list-group list-group-horizontal top-cert-companies">
+                                            <li class="list-group-item">
+                                                <img src="images/recog_4.png" alt="img">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul class="list-group list-group-horizontal top-cert-companies">
+                                            <li class="list-group-item">
+                                                <img src="images/recog_5.png" alt="img">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul class="list-group list-group-horizontal top-cert-companies">
+                                            <li class="list-group-item">
+                                                <img src="images/recog_6.png" alt="img">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul class="list-group list-group-horizontal top-cert-companies">
+                                            <li class="list-group-item">
+                                                <img src="images/recog_7.png" alt="img">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul class="list-group list-group-horizontal top-cert-companies">
+                                            <li class="list-group-item">
+                                                <img src="images/recog_8.png" alt="img">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul class="list-group list-group-horizontal top-cert-companies">
+                                            <li class="list-group-item">
+                                                <img src="images/recog_9.png" alt="img">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                             <a href="" class="vmore st">View More <i class="fas fa-long-arrow-alt-right"></i></a>
                             <div class="four-borders">
@@ -368,7 +477,7 @@
                             <p class="p light">Looking for Data Solutions?</p>
                             <h2 class="h2 sec-title light">Ready to simplify data to propel your business? We are too.</h2>
                         </div>
-                        <button type="button" onclick="location.href='contact.html'" class="btn bttn-light">Get in Touch</button>
+                        <a href="contact.html"><button type="button" class="btn bttn-outline-primary">Get in Touch</button></a>
                     </div>
                 </div>
             </div>

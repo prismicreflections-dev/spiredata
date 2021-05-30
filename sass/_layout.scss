@@ -312,6 +312,9 @@ code {color: #21D885;}
 .common-section {
     &.bg-light {
         background-color: #F5F9FD !important;
+        &.bg-light-50 {
+            background: linear-gradient(to bottom, #F5F9FD 50%, #FFFFFF 50%) !important;
+        }
     }
     &.bg-dark {
         background-color: #2C3E50 !important;
@@ -420,7 +423,7 @@ code {color: #21D885;}
     justify-content: center;
     .list-group-item {
         position: relative;
-        margin: 30px;
+        margin: 30px auto;
         display: block;
         height: 103px;
         width: 103px;
@@ -457,6 +460,10 @@ code {color: #21D885;}
         top: -40px;
         left: -90px;
     }
+}
+.top-cert-logo-wrap {
+    max-width: 920px;
+    margin: auto;
 }
 .four-borders {
     position: absolute;
@@ -1102,4 +1109,244 @@ code {color: #21D885;}
 }
 .cont-sec2-hr{
     margin: 2rem 0;
+}
+
+/* About page */
+.abtpage {
+    .hero-sec {
+        position: relative;
+        background: url('../images/abt_hero_bg.png');
+    }
+    .abt-sec-2 {
+        .ttl {
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 48px;
+            color: #2C3E50;
+            max-width: 420px;
+            margin-bottom: 40px;
+        }
+        .p {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: #717D89;
+            max-width: 420px;
+        }
+    }  
+}
+.abt-sec-2-img-wrap {
+    position: relative;
+    max-width: 645px;
+    margin: auto;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+.ourteam-card {
+    display: block;
+    max-width: 345px;
+    margin: auto;
+    .ourteam-card-img {
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        overflow: hidden;
+        height: 340px;
+        width: 100%;
+        img {
+            object-fit: cover;
+        }
+    }
+    .ourteam-card-inf {
+        text-align: center;
+        display: block;
+        width: 80%;
+        background: #fff;
+        padding: 20px 0px;
+        box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
+        margin: -40px auto 0px;
+        position: relative;
+        border-radius: 0 36px 0 36px;
+        -webkit-border-radius: 0 36px 0 36px;
+        -moz-border-radius: 0 36px 0 36px;
+        -ms-border-radius: 0 36px 0 36px;
+        -o-border-radius: 0 36px 0 36px;
+        z-index: 2;
+        .grt {
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 28px;
+            color: #2C3E50;
+            margin-bottom: 0;
+        }
+        .nm {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 30px;
+            color: #2C3E50;
+            margin-bottom: 0;
+        }
+    }
+    .ourteam-card-body {
+        max-width: 80%;
+        margin: 40px auto auto;
+        .desig {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 20px;
+            color: #65727f;
+        }
+        .p {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: #717D89;
+        }
+    }
+}
+
+.abt-sec-4 {
+    .ttl-wrapper {
+        .sec-title {
+            font-weight: 600;
+        }
+        .p {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: #717D89;
+            max-width: 466px;
+        }
+    }
+}
+.list-wrapper {
+    margin-top: 60px;
+    .list-group {
+        .list-group-item {
+            padding: 0;
+            border: 0;
+            margin-bottom: 15px;
+            .tick-box {
+                display: inline-block;
+                position: relative;
+                max-width: 28px;
+                margin-right: 7px;
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+            }
+            .p {
+                display: inline-block;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 28px;
+                color: #6d7a86;
+            }
+        }
+    }
+}
+.abt-sec-4-img-wrap {
+    position: relative;
+    max-width: 554px;
+    margin: auto;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+.abt-sec-3 {
+    background: linear-gradient(180deg, #2C3E50 0%, #607081 121.44%);
+    border-top-left-radius: 220px;
+    overflow: hidden;
+    .abt-sec-3-list {
+        list-style: none;
+        li {
+            list-style: none;
+            display: inline-block;
+            width: 33%;
+            &.br-b {
+                border-bottom: 1px solid #5b6a78;
+            }
+            &.br-r {
+                border-right: 1px solid #5b6a78;
+            }
+        }
+    }
+}
+
+.abt-blk {
+    text-align: center;
+    padding: 40px 0;
+    .abt-blk-icn {
+        display: block;
+        position: relative;
+        height: 35px;
+        width: auto;
+        margin: auto auto 15px;
+        text-align: center;
+        img {
+            display: block;
+            margin: auto;
+            object-fit: cover;
+            height: 100%;
+            width: auto;
+        }
+    }
+    .ttl {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 70px;
+        color: #FFFFFF;
+        sup {
+            font-weight: 300;
+            font-size: 70%;
+        }
+    }
+    .p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+}
+
+
+/* coming soon page */
+.coming-soon-sec {
+    .coming-soon-sec-img {
+        display: block;
+        max-width: 650px;
+        margin: auto;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    .p {
+        color: #2C3E50
+    }
+    .ttl {
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 72px;
+        color: #2C3E50;
+        margin-bottom: 60px;
+    }
+    .lnk {
+        color: #56DCE8;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+    }
 }

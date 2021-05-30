@@ -1,0 +1,15 @@
+Hosting Details
+
+Cpanel URL: https://sg2plzcpnl471129.prod.sin2.secureserver.net:2083/
+
+Domain: spiredata.ai
+
+Login: dc5tbob0lu1q
+
+Password: vujw^L02
+
+
+ftp details:
+dc5tbob0lu1q2@spiredata.ai
+ftp.spiredata.ai
+Qe_T*NHIehBE

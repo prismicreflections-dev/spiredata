@@ -216,4 +216,89 @@ $(document).ready(function () {
       return false;
     });
   }, 1000);
+
+	$('.ourteam-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 70,
+		stagePadding: 30,
+		nav: false,
+		dots: false,
+		items: 3,
+		responsive:{
+			0:{
+				items:1, dots: true, margin: 30,
+			},
+			768:{
+				items:2, dots: true, margin: 30,
+			},
+			992:{
+				items:2, dots: true, margin: 30,
+			},
+			1199:{
+				items:3
+			}
+		}
+	});
+
+	$('.abtsec3-list-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 20,
+		stagePadding: 0,
+		nav: false,
+		dots: true,
+		items: 1,
+	});
+
+	$('.recog-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 10,
+		stagePadding: 10,
+		nav: false,
+		dots: true,
+		items: 6,
+		responsive:{
+			0:{
+				items:3, dots: true, margin: 30,
+			},
+			768:{
+				items:4, dots: true, margin: 30,
+			},
+			992:{
+				items:4, dots: true, margin: 30,
+			},
+			1199:{
+				items:6
+			}
+		}
+	});
+
+	$('.hero-list-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 0,
+		stagePadding: 10,
+		nav: false,
+		dots: true,
+		items: 1
+	});
+	
+	$('.srvc-cards-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 10,
+		stagePadding: 10,
+		nav: false,
+		dots: true,
+		items: 1
+	});
+	
+
+	
+
+	
+
+	
 });
