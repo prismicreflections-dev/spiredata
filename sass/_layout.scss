@@ -1316,3 +1316,34 @@ code {color: #21D885;}
         margin-bottom: 0;
     }
 } 
+
+
+/* coming soon page */
+.coming-soon-sec {
+    .coming-soon-sec-img {
+        display: block;
+        max-width: 650px;
+        margin: auto;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    .p {
+        color: #2C3E50
+    }
+    .ttl {
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 72px;
+        color: #2C3E50;
+        margin-bottom: 60px;
+    }
+    .lnk {
+        color: #56DCE8;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+    }
+}
