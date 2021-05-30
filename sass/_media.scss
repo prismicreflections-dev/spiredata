@@ -88,6 +88,19 @@
         right: 15vw;
     }
 
+
+    /* About page */
+    .abt-sec-2-img-wrap {
+        max-width: 550px;
+    }
+    .abt-sec-4-img-wrap {
+        max-width: 480px;
+    }
+    .abt-blk .ttl {
+        font-size: 55px;
+    }
+    
+
 }
 
 @media (max-width: 1599px) and (min-width: 1400px) {
@@ -188,6 +201,17 @@
     .cntc-inf .cntc-inf-body {
         font-size: 20px;
         line-height: 28px;
+    }
+
+
+    /* About page */
+    .abt-sec-4 .ttl-wrapper .p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .abt-blk .ttl {
+        font-size: 44px;
+        line-height: 56px;
     }
 
 }
@@ -392,6 +416,40 @@
         line-height: 30px;
     }
 
+
+    /* About page */
+    .abt-sec-2-img-wrap {
+        max-width: 380px;
+    } 
+    .abt-blk .ttl {
+        font-size: 44px;
+        line-height: 56px;
+    }
+    .abtpage .bg-light-50 .sec-title.left {
+        text-align: center;
+    }
+    .ourteam-wrapper {
+        margin-top: 30px;
+    }
+    .abtpage .abt-sec-2 .ttl {
+        font-size: 27px;
+        line-height: 39px;
+        margin-bottom: 20px;
+    }
+    .abt-sec-3 .abt-sec-3-list li {
+        width: 32%;
+    }
+    .abt-sec-4 .ttl-wrapper .p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .abt-sec-4-img-wrap {
+        max-width: 380px;
+    }
+    .abt-sec-2-img-wrap {
+        margin-bottom: 40px;
+    }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -581,15 +639,72 @@
         margin-bottom: 50px;
     }
 
+
+    /* About  page */
+    .abtpage .abt-sec-2 .ttl {
+        margin: 20px auto;
+        text-align: center;
+    }
+    .abtpage .abt-sec-2 .p {
+        max-width: 540px;
+        margin: auto;
+        text-align: center;
+    }
+    .ourteam-card .ourteam-card-inf .grt {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .ourteam-card .ourteam-card-inf .nm {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .ourteam-card .ourteam-card-body .desig {
+        font-size: 16px;
+    }
+    .ourteam-card .ourteam-card-body .p {
+        font-size: 14px;
+    }
+    .abt-blk .abt-blk-icn {
+        height: 28px;
+        margin: auto auto 7px;
+    }
+    .abt-blk .ttl {
+        font-size: 36px;
+        line-height: 56px;
+        margin-bottom: 0;
+    }
+    .abt-blk .p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .abt-sec-4-img-wrap {
+        margin-bottom: 40px;
+    }
+
 }
 
+@media only screen and (min-width: 768px) {
+    .explore-srvc-sec .explore-srvc-carousel-mob {
+        display: none;
+    }
+
+    /* about page */
+    .abt-sec-3 .hide-desktop {
+        display: none;
+    }
+}
 @media only screen and (max-width: 767px) {
-}
-
-@media only screen and (min-width: 576px) {
     .explore-srvc-sec .explore-srvc-carousel {
         display: none;
     }
+
+    /* about page */
+    .abt-sec-3 .hide-mobile {
+        display: none;
+    }
+}
+@media only screen and (min-width: 576px) {
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -716,9 +831,6 @@
     .explore-srvc-carousel-wrap {
         margin: 0 0px;
     }
-    .explore-srvc-sec .explore-srvc-carousel {
-        display: none;
-    }
     .explore-srvc-carousel-mob .owl-dots {
         position: relative;
         top: -20px;
@@ -750,5 +862,59 @@
     }
 
 
+
+    /* about page */
+    .abtpage .hero-sec {
+        background-position: center;
+    }
+    .abt-sec-2-img-wrap {
+        max-width: 300px;
+    }
+    .abtpage .abt-sec-2 .ttl {
+        font-size: 18px;
+        line-height: 29px;
+        max-width: 300px;
+    }
+    .abtpage .abt-sec-2 .p {
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 300px;
+    }
+    .abtpage .abt-sec-2 {
+        padding-bottom: 70px;
+    }
+    .common-section.bg-light.bg-light-50 {
+        padding: 70px 0;
+    }
+    .ourteam-wrapper {
+        margin-top: 10px;
+    }
+    .abt-sec-3 {
+        border-top-left-radius: 0;
+        padding: 40px 0 50px;
+    }
+    .abt-sec-3 .abt-sec-3-list {
+        padding-left: 0;
+    }
+    .abt-sec-3 .abt-sec-3-list li {
+        width: 100%;
+    }
+    .abt-blk {
+        padding: 40px 0 10px;
+    }
+    .list-wrapper .list-group .list-group-item .tick-box {
+        max-width: 22px;
+        margin-right: 4px;
+    }
+    .list-wrapper .list-group .list-group-item .p {
+        font-size: 14px;
+    }
+    .list-wrapper .list-group .list-group-item {
+        margin-bottom: 0px;
+    }
+    .common-section .ttl-wrapper .p {
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
 

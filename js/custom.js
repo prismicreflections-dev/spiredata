@@ -130,5 +130,42 @@ $(document).ready(function() {
 		}
 	});
 
+	$('.ourteam-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 70,
+		stagePadding: 30,
+		nav: false,
+		dots: false,
+		items: 3,
+		responsive:{
+			0:{
+				items:1, dots: true, margin: 30,
+			},
+			768:{
+				items:2, dots: true, margin: 30,
+			},
+			992:{
+				items:2, dots: true, margin: 30,
+			},
+			1199:{
+				items:3
+			}
+		}
+	});
+
+	$('.abtsec3-list-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 20,
+		stagePadding: 0,
+		nav: false,
+		dots: true,
+		items: 1,
+	});
+
+
+	
+
 	
 });
