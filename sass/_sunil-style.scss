@@ -1,0 +1,25 @@
+.no-padding{padding: 0 !important;}
+.google_map {
+    padding:0!important;
+    h5 {
+        font-weight:600;
+        font-family:'Open Sans',sans-serif;
+        color:#4e4e4e;
+        font-size:16px;
+        margin-top:10px;
+        margin-bottom:10px;
+       }
+       p {
+        font-weight:500;
+        font-family:'Open Sans',sans-serif;
+        color:#4e4e4e;
+        font-size:13px
+       }
+       strong {
+        font-weight:bold;
+        font-size:14px
+       }
+       #gmap_canvas>div+div {
+        display:none
+       }
+   }
