@@ -14,6 +14,12 @@
     .hero-sec {
         padding: 70px 0;
     }
+    .first-sec .ttl-wrapper .sec-title,
+    .first-sec .sec-p {
+        max-width: 860px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .hero-list-wrap .list-hero .list-group-item {
         padding: 20px 40px;
         max-width: 270px;
@@ -136,6 +142,12 @@
     .sec-title.h3 {
         line-height: 48px;
     }
+    .first-sec .ttl-wrapper .sec-title,
+    .first-sec .sec-p {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .common-section .ttl-wrapper .p {
         font-size: 24px;
         line-height: 38px;
@@ -172,6 +184,11 @@
         height: 80px;
         width: 80px;
         margin: 20px;
+    }
+
+
+    .indus-sec {
+        border-top-left-radius: 240px;
     }
 
 
@@ -263,6 +280,11 @@
         justify-content: center;
         position: static;
         margin: 40px auto 0;
+    }
+    .first-sec .ttl-wrapper .sec-title {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .first-sec {
         padding-top: 70px;
@@ -927,6 +949,7 @@
     .hero-list-carousel.hide-desktop {
         display: block;
         position: absolute;
+        left: 0;
     }
     .first-sec {
         padding-top: 240px;

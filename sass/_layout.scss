@@ -337,7 +337,7 @@ code {color: #21D885;}
         }
     }
     .sec-p {
-        max-width: 890px;
+        max-width: 1160px;
         margin: auto;
         text-align: center;
         &.left {
@@ -351,6 +351,10 @@ code {color: #21D885;}
             text-align: left;
         }
     }
+}
+
+.hero-sec .sec-p {
+    font-size: 36px;
 }
 
 .list-companies {
@@ -521,7 +525,7 @@ code {color: #21D885;}
     .sec-p {
         margin-left: 0;
         text-align: left;
-        max-width: 600px;
+        max-width: 700px;
         color: #fff;
     }
     .btn {
@@ -818,15 +822,19 @@ code {color: #21D885;}
     .ttl-wrapper {
         .sec-title {
             line-height: 55px;
+            margin-bottom: 40px;
         }
         .p {
             font-size: 16px;
             line-height: 28px;
             color: #717D89;
             margin-top: 20px;
+            b {
+                font-weight: 600;
+            }
         }
     }
-}  
+}
 .explore-srvc-carousel-wrap {
     margin: 0 60px;
 }
@@ -1082,7 +1090,7 @@ code {color: #21D885;}
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
     margin: 30px 0;
-    padding: 50px 36px;
+    padding: 50px 25px;
     border-top: 10px solid #ccc;
     &.orange {border-color: #F87306;}
     &.green {border-color: #21D885;}
@@ -1161,6 +1169,8 @@ code {color: #21D885;}
         width: 100%;
         img {
             object-fit: cover;
+            height: 100%;
+            width: auto;
         }
     }
     .ourteam-card-inf {
@@ -1201,12 +1211,14 @@ code {color: #21D885;}
             font-size: 18px;
             line-height: 20px;
             color: #65727f;
+            text-align: center;
         }
         .p {
             font-weight: normal;
             font-size: 16px;
             line-height: 28px;
             color: #717D89;
+            display: none;
         }
     }
 }
@@ -1237,6 +1249,7 @@ code {color: #21D885;}
                 position: relative;
                 max-width: 28px;
                 margin-right: 7px;
+                vertical-align: top;
                 img {
                     width: 100%;
                     height: auto;
@@ -1249,6 +1262,8 @@ code {color: #21D885;}
                 font-size: 16px;
                 line-height: 28px;
                 color: #6d7a86;
+                max-width: 90%;
+                vertical-align: top;
             }
         }
     }

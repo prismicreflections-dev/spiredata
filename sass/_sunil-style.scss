@@ -51,13 +51,20 @@
     box-shadow: 8px 8px 24px rgba(224, 224, 224, 0.15);
     border-radius: 16px;
     height: 100%;
-    min-height: 260px;
+    min-height: 288px;
     .card-body {
       padding: 40px;
     }
     .soln-card-img {
-      width: 200px;
+      width: auto;
       margin-bottom: 22px;
+      max-height: 70px;
+    }
+    .p4 {
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
   }
 }
