@@ -297,8 +297,43 @@ $(document).ready(function () {
 		items: 1
 	});
 	
+  $('.powerof-ai-carousel').owlCarousel({
+		loop: true,
+		autoplay: false,
+		margin: 25,
+		stagePadding: 10,
+		nav: true,
+		dots: true,
+		items: 2,
+    navText: [
+      "<img src='images/prev_carousel_img.svg' alt='<'>",
+      "<img src='images/next_carousel_img.svg' alt='>'>",
+    ],
+		responsive:{
+			0:{
+				items:1, dots: true, margin: 30, stagePadding: 10,
+			},
+			768:{
+				items:1, dots: true, margin: 50, stagePadding: 25,
+			},
+			992:{
+				items:2, dots: true, margin: 30,
+			},
+			1199:{
+				items:2
+			}
+		}
+	});
 
-	
+  $('.cards6-carousel').owlCarousel({
+		loop: false,
+		autoplay: false,
+		margin: 10,
+		stagePadding: 10,
+		nav: false,
+		dots: true,
+		items: 1
+	});
 
 	
 

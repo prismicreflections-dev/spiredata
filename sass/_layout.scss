@@ -1365,3 +1365,190 @@ code {color: #21D885;}
         line-height: 43px;
     }
 }
+
+
+
+/* srvc page*/
+.srvcpage-sec1 {
+    .twocol-card {
+        padding-right: 60px;
+        .ttl {
+            margin-bottom: 40px;
+        }
+        .p {
+            margin-bottom: 30px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+    }
+    .twocol-card-img {
+        max-width: 750px;
+        margin: auto;
+    }
+}
+
+.powerof-ai-sec {
+    .powerof-ai-ttl {
+        .ttl {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 65px;
+            color: #2C3E50;
+            max-width: 780px;
+        }
+    }
+    .powerof-ai-img {
+        position: relative;
+        max-width: 400px;
+        img {
+            object-fit: cover;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.powerof-ai-card {
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+    padding: 50px 35px;
+    margin: 40px auto;
+    min-width: 150%;
+    min-height: 264px;
+    .powerof-ai-card-icon {
+        max-width: 88px;
+        margin-right: 20px;
+        img {
+            object-fit: cover;
+        }
+    }
+    .powerof-ai-card-body {
+        .ttl {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .p {
+            margin-bottom: 0;
+            line-height: 28px;
+        }
+    }
+}
+.powerof-ai-carousel .owl-stage .owl-item {
+    transform: translateX(calc(-50% - 25px));
+    -webkit-transform: translateX(calc(-50% - 25px));
+    -moz-transform: translateX(calc(-50% - 25px));
+    -ms-transform: translateX(calc(-50% - 25px));
+    -o-transform: translateX(calc(-50% - 25px));
+    z-index: 1;
+}
+.powerof-ai-carousel .owl-stage .owl-item.active {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    z-index: 2;
+}
+.powerof-ai-carousel .owl-stage .owl-item.active + .owl-item.active {
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+    z-index: 2;
+}
+.powerof-ai-carousel .owl-nav .owl-prev {display: none;}
+.powerof-ai-carousel .owl-nav .owl-next {
+    position: absolute;
+    left: auto;
+    right: -96px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 0 !important;
+    &:hover, &:focus {
+        background-color: transparent !important;
+    }
+    img {
+        object-fit: cover;
+        max-width: 60px;
+    }
+}
+.powerof-ai-carousel .owl-dots {
+    text-align: right;
+    position: relative;
+    top: -20px;
+    pointer-events: none;
+}
+
+.cards6 {
+    position: relative;
+    display: block;
+    height: 175px;
+    padding: 40px;
+    cursor: pointer;
+    &.l-grad {
+        background: linear-gradient(102.78deg, rgba(255, 255, 255, 0.1) 6.29%, rgba(255, 255, 255, 0) 71.17%);
+        border-top-left-radius: 60px;
+        &:hover, &:focus {
+            background: linear-gradient(284.36deg, rgba(255, 255, 255, 0.1) 2.45%, rgba(255, 255, 255, 0) 57.93%); 
+            border-bottom-right-radius: 60px;
+        }
+    }
+    &.r-grad {
+        background: linear-gradient(284.36deg, rgba(255, 255, 255, 0.1) 2.45%, rgba(255, 255, 255, 0) 57.93%);
+        border-bottom-right-radius: 60px;
+        &:hover, &:focus {
+            background: linear-gradient(102.78deg, rgba(255, 255, 255, 0.1) 6.29%, rgba(255, 255, 255, 0) 71.17%); 
+            border-top-left-radius: 60px;
+        }
+    }
+    .cards6-icon {
+        position: relative;
+        max-width: 52px;
+        height: auto;
+        margin-right: 20px;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    .cards6-body {
+        .ttl {
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 30px;
+            color: #FFFFFF;
+        }
+    }
+    .link {
+        cursor: pointer;
+        position: absolute;
+        top: auto;
+        left: auto;
+        right: 40px;
+        bottom: 20px;
+        z-index: 1;
+        i {
+            font-size: 16px;
+            color: #21D885;
+        }
+    }
+}
