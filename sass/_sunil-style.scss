@@ -151,8 +151,12 @@
       margin-bottom: 50px;
       text-align: left;
       padding: 30px 40px;
-      &:hover,
-      &.active {
+      transition: none !important;      
+      -webkit-transition: none !important;
+      -moz-transition: none !important;
+      -ms-transition: none !important;
+      -o-transition: none !important;
+      &:hover,      &.active {
         color: #2c3e50;
         box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15) !important;
         border-radius: 8px;
@@ -306,5 +310,11 @@ opacity: 0.79;
 	transition: all 0.3s;
 	backface-visibility: hidden;
 	border-radius: 2px;
+}
+.solution-ul-wrap{
+  li.w40{
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }
 }
