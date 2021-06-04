@@ -1377,6 +1377,7 @@ code {color: #21D885;}
         }
         .p {
             margin-bottom: 30px;
+            line-height: 28px;
         }
         .btn {
             margin-top: 20px;
@@ -1389,6 +1390,7 @@ code {color: #21D885;}
 }
 
 .powerof-ai-sec {
+    border-top-left-radius: 280px;
     .powerof-ai-ttl {
         .ttl {
             font-weight: 600;
@@ -1551,4 +1553,84 @@ code {color: #21D885;}
             color: #21D885;
         }
     }
+}
+
+/* industry details */
+.our-expertise-wrap {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 24px rgba(216, 215, 215, 0.15);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+    &::after {
+        position: absolute;
+        content: '';
+        display: block;
+        height: 200px;
+        width: 175px;
+        background: url('../images/our-expertise-bg.svg') no-repeat center;
+        background-size: 80%;
+        top: auto;
+        left: 0;
+        bottom: -26px;
+        z-index: 1;
+    }
+    .our-expertise-ttl {
+        border-right: 1px solid #E9E9E9;
+        padding: 10px 50px 10px 0;
+        margin-right: 20px;
+        .ttl {
+            text-align: right;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 65px;
+            color: #2C3E50;
+        }
+        .p {
+            text-align: right;
+            max-width: 214px;
+            margin-left: auto;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: #717D89;
+        }
+    }
+    .our-expertise-blk {
+        margin: auto 30px;
+        .our-expertise-list {
+            margin-bottom: 22px;
+            .our-expertise-list-img {
+                margin-right: 5px;
+                max-width: 28px;
+            }
+            .our-expertise-list-body {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                color: #6d7a86;
+            }
+        }
+    }
+}
+.our-expertise-sec {
+    border-top-left-radius: 280px;
+}
+
+.inddtlspage {
+    .cards6.br-r {
+        border-right: 1px solid #616E7C;
+    }
+    .cards6.br-b {
+        border-bottom: 1px solid #616E7C;
+    }
+} 
+.inddtlspage .cards6-sec {
+    padding: 20px 0;
 }
