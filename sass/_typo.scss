@@ -1,0 +1,82 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {font-weight: 600;color: #2C3E50;line-height: normal;}
+// X-Large devices (large desktops, min than 1400px)
+@media (min-width: 1200px) {
+    .h1 {font-size: 72px;}
+    .h2 {font-size: 64px; line-height: 80px;}
+    .h3 {font-size: 55px; line-height: 70px;}
+    .h4 {font-size: 40px; line-height: 50px;}
+    .h4-30{font-size: 30px; line-height: 44px;}
+    .h4-48{font-size: 48px; line-height: 64px;}
+    .h5 {font-size: 24px; line-height: 36px;}
+    .h6 {font-size: 18px; line-height: 28px;}
+    .p {font-size: 16px; line-height: 26px; font-weight: 400; color: #717D89;}
+    .p36{font-style: normal;font-weight: 300;font-size: 36px;line-height: 46px; color: #DBDFE3;}
+    .p30{font-style: normal;font-weight: 300;font-size: 30px;line-height: 40px; color: #DBDFE3;}
+    .p1 {font-size: 28px; line-height: 42px;}
+    .p2 {font-size: 24px; line-height: 36px;}
+    .p3 {font-size: 18px; line-height: 28px;}
+    .p4 {font-size: 16px; line-height: 26px;}
+    .p5 {font-size: 14px; line-height: 24px;}
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) and (min-width: 992px) { 
+    .h1 {font-size: 62px;}
+    .h2 {font-size: 54px; line-height: 68px;}
+    .h3 {font-size: 46px; line-height: 60px;}
+    .h4 {font-size: 34px; line-height: 42px;}
+    .h4-30{font-size: 28px; line-height: 37px;}
+    .h4-48{font-size: 40px; line-height: 50px;}
+    .h5 {font-size: 22px; line-height: 33px;}
+    .h6 {font-size: 18px; line-height: 28px;}
+    .p {font-size: 16px; line-height: 26px; font-weight: 400; color: #717D89;}
+    .p36{font-style: normal;font-weight: 300;font-size: 30px;line-height: 44px; color: #DBDFE3;}
+    .p30{font-style: normal;font-weight: 300;font-size: 25px;line-height: 38px; color: #DBDFE3;}
+    .p1 {font-size: 24px; line-height: 36px;}
+    .p2 {font-size: 22px; line-height: 33px;}
+    .p3 {font-size: 16px; line-height: 26px;}
+    .p4 {font-size: 15px; line-height: 24px;}
+    .p5 {font-size: 14px; line-height: 24px;}
+ }
+
+ // Large devices (desktops, less than 992)
+@media (max-width: 991.98px) and (min-width: 768px) { 
+    .h1 {font-size: 50px;}
+    .h2 {font-size: 45px; line-height: 58px;}
+    .h3 {font-size: 40px; line-height: 50px;}
+    .h4 {font-size: 30px; line-height: 44px;}
+    .h4-30{font-size: 24px; line-height: 36px;}
+    .h4-48{font-size: 34px; line-height: 45px;}
+    .h5 {font-size: 18px; line-height: 28px;}
+    .h6 {font-size: 16px; line-height: 26px;}
+    .p {font-size: 14px; line-height: 24px; font-weight: 400; color: #717D89;}
+    .p36{font-style: normal;font-weight: 300;font-size: 30px;line-height: 44px; color: #DBDFE3;}
+    .p30{font-style: normal;font-weight: 300;font-size: 25px;line-height: 38px; color: #DBDFE3;}
+    .p1 {font-size: 22px; line-height: 33px;}
+    .p2 {font-size: 18px; line-height: 28px;}
+    .p3 {font-size: 16px; line-height: 26px;}
+    .p4 {font-size: 14px; line-height: 24px;}
+    .p5 {font-size: 12px; line-height: 22px;}
+ }
+
+ // Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    .xs-text-center{text-align: center !important;}
+    .h1 {font-size: 50px;}
+    .h2 {font-size: 36px; line-height: 50px;}
+    .h3 {font-size: 30px; line-height: 40px;}
+    .h4 {font-size: 24px; line-height: 36px;}
+    .h4-30{font-size: 24px; line-height: 36px;}
+    .h4-48{font-size: 30px; line-height: 40px;}
+    .h5 {font-size: 18px; line-height: 28px;}
+    .h6 {font-size: 16px; line-height: 26px;}
+    .p {font-size: 14px; line-height: 24px; font-weight: 400; color: #717D89;}
+    .p36{font-style: normal;font-weight: 300;font-size: 22px;line-height: 32px; color: #DBDFE3;}
+    .p30{font-style: normal;font-weight: 300;font-size: 20px;line-height: 30px; color: #DBDFE3;}
+    .p1 {font-size: 22px; line-height: 33px;}
+    .p2 {font-size: 18px; line-height: 28px;}
+    .p3 {font-size: 16px; line-height: 26px;}
+    .p4 {font-size: 14px; line-height: 24px;}
+    .p5 {font-size: 12px; line-height: 22px;}
+    .common-section .sec-p {font-size: 16px; line-height: 26px;}
+ }

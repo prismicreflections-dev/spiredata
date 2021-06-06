@@ -5,19 +5,6 @@ a, a:hover, a:focus {text-decoration: none!important; outline: 0!important;}
 body {font-family: 'Poppins', sans-serif; color: #717D89; font-style: normal; font-size: 18px; overflow-x: hidden;}
 
 .st {transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -ms-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out;}
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {font-weight: 700;color: #2C3E50;line-height: normal;}
-.h1 {font-size: 72px;}
-.h2 {font-size: 64px;}
-.h3 {font-size: 55px;}
-.h4 {font-size: 40px;}
-.h5 {font-size: 24px;}
-.h6 {font-size: 18px;}
-.p {font-size: 16px; line-height: 24px; font-weight: 400; color: #717D89;}
-.p1 {font-size: 28px; line-height: 42px;}
-.p2 {font-size: 24px; line-height: 36px;}
-.p3 {font-size: 18px; line-height: 28px;}
-.p4 {font-size: 16px; line-height: 24px;}
-.p5 {font-size: 14px; line-height: 22px;}
 
 .fw-900 {font-weight: 900;}
 .fw-700 {font-weight: 700;}
@@ -30,8 +17,8 @@ code {color: #21D885;}
 .sec-title {
     display: block;
     text-align: center;
-    line-height: normal;
     color: #2C3E50;
+    margin-bottom: 30px;
     &.light {
         color: #FFFFFF;
         text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
@@ -40,7 +27,6 @@ code {color: #21D885;}
         text-align: left;
     }
     &.h2 {
-        line-height: 72px;
         margin-bottom: 0;
     }
 }
@@ -305,7 +291,11 @@ code {color: #21D885;}
     z-index: 1;
     .sec-title {
         max-width: 1048px;
-        margin: 30px auto 40px
+        margin: 0px auto 40px
+    }
+    .p36{
+        color: #FFFFFF;
+text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
     }
 }
 
@@ -320,7 +310,7 @@ code {color: #21D885;}
         background-color: #2C3E50 !important;
     }
     .ttl-wrapper {
-        margin-bottom: 30px;
+        margin-bottom: 7px;
         .p {
             font-weight: normal;
             font-size: 30px;
@@ -353,9 +343,6 @@ code {color: #21D885;}
     }
 }
 
-.hero-sec .sec-p {
-    font-size: 36px;
-}
 
 .list-companies {
     justify-content: center;
@@ -521,7 +508,11 @@ code {color: #21D885;}
     -o-border-radius: 0 360px 0 0;
     z-index: 1;
     overflow: visible;
-    padding: 113px 0;
+    padding: 160px 0 60px;
+    min-height: 560px;
+    .ttl-wrapper{
+        margin-bottom: 13px;
+    }
     .sec-p {
         margin-left: 0;
         text-align: left;
@@ -552,6 +543,22 @@ code {color: #21D885;}
             -moz-border-radius: 0;
             -ms-border-radius: 0;
             -o-border-radius: 0;
+            img{
+                transition: all 0.2s linear 0s;
+                -webkit-transition: all 0.2s linear 0s;
+                -moz-transition: all 0.2s linear 0s;
+                -ms-transition: all 0.2s linear 0s;
+                -o-transition: all 0.2s linear 0s;
+}
+            &:hover{
+                img{
+                transform: scale(1.15);
+                -webkit-transform: scale(1.15);
+                -moz-transform: scale(1.15);
+                -ms-transform: scale(1.15);
+                -o-transform: scale(1.15);
+}
+            }
             .p {
                 font-weight: 600;
                 font-size: 18px;
@@ -714,7 +721,7 @@ code {color: #21D885;}
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-bottom: 5px solid #F87306;
-    padding: 20px 50px;
+    padding: 20px 30px;
     max-width: 250px;
     margin: 10px 0;
     text-align: center;
@@ -1067,7 +1074,13 @@ code {color: #21D885;}
         }
     }    
 }
-
+.srvcpage, .industrypage{
+    .hero-sec {
+        .ttl-wrapper.hero-ttl-wrapper .hero-p {
+            max-width: 720px;
+        }
+    }   
+}
 
 
 /* Partners page */
