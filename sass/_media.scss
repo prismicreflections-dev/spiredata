@@ -188,7 +188,9 @@
   }
 }
 @media (min-width: 1200px) {
- 
+  .d-flex.solution-d-flex .flex-grow-1 {
+    max-width: 557px;
+  }
 
   .lg-pl-120 {
     padding-left: 120px !important;
