@@ -1,4 +1,4 @@
-<header class="common-header">
+<header class="common-header st">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -26,7 +26,7 @@
                         <li class="nav-item pr-nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
-                        <li class="nav-item pr-nav-item">
+                        <li class="nav-item pr-nav-item pr-nav-item-adj">
                             <button type="button" onclick="location.href='contact.html'" style="white-space: nowrap;"
                                 class="btn bttn-primary">Get in
                                 Touch</button>
@@ -40,10 +40,8 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-
         //active tab
-        var wid = $(window).width();
-        if (wid >= 768) {
+        var wid = $(window).width();        
             var pageURL = document.location.href.match(/[^\/]+$/)[0];
             //alert(pageURL);  
             $('.common-header .navbar .pr-nav-item').each(function () {
@@ -53,13 +51,23 @@
                     $(this).find('a.nav-link').addClass('text-success');
                 }
             });
-        }
+            $(".toggle-mnu").removeClass("on");
         $(".toggle-mnu").click(function () {
-            $(this).toggleClass("on");
+            // $(this).toggleClass("on");
             $(".main-mnu").slideToggle();
             return false;
         });
-
+        if (wid >= 768) {
+        $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() - 0;
+			 if ($(window).scrollTop() > 200) {
+				 $('.common-header').addClass('fixed');
+			 }
+			 else {
+				 $('.common-header').removeClass('fixed');
+			 }
+		});
+    }
     });
 
 </script>

@@ -21,7 +21,10 @@ $(document).ready(function () {
 
   $(".common-header-wrap").load("include/header.html");
   $(".common-footer-wrap").load("include/footer.html");
- 
+
+  
+    
+  
 
   setTimeout(function () {
     // Configure/customize these variables.
