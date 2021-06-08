@@ -13,7 +13,7 @@
     $headers .= "X-Priority: 1\r\n";
     $headers .= "X-MSMail-Priority: High\r\n";
     $headers .= 'From:SpireData<unnita@spiresolutions.com>';
-    $mailTo = 'unnita@spiresolutions.com, tausif@spiresolutions.com, sunil@prismicreflections.com, mail@spiredata.ai';
+    $mailTo = 'unnita@spiresolutions.com, tausif@spiresolutions.com, sunil@prismicreflections.com';
     $subject = "New Enquiry";
     $message = "<br><b>Name :-&nbsp;</b>" . $name . "\n\n"
             . "<br><b>Email:-&nbsp;</b>" . $email . "\n\n"

@@ -503,7 +503,6 @@ div[onclick] {
 
 .cont-sec2 {
   .logo-contact {
-    width: 175px;
     margin-bottom: 45px;
   }
 }
@@ -598,14 +597,35 @@ div[onclick] {
   }
 }
 
+.soln-carousel-wrap
+  .soln-card-carousel
+  .owl-stage-outer
+  .owl-stage
+  .owl-item.active
+  + .owl-item.active
+  + .owl-item.active
+  .card.soln-card {
+  opacity: 1;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  transform: scale(0.8) translateX(-50px);
+  -moz-transform: scale(0.8) translateX(-50px);
+  -ms-transform: scale(0.8) translateX(-50px);
+  -o-transform: scale(0.8) translateX(-50px);
+  -webkit-transform: scale(0.8) translateX(-50px);
+}
 
-.soln-carousel-wrap .soln-card-carousel .owl-stage-outer .owl-stage .owl-item.active + .owl-item.active + .owl-item.active .card.soln-card {
-	opacity: 1;
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-	transform: scale(0.8) translateX(-50px);
-	-moz-transform: scale(0.8) translateX(-50px);
-	-ms-transform: scale(0.8) translateX(-50px);
-	-o-transform: scale(0.8) translateX(-50px);
-	-webkit-transform: scale(0.8) translateX(-50px);
+.recongnition-wrap,
+.list-companies .list-group-item,
+.partners-card,
+.indus-carousel .owl-item,
+.solution-img.img-fluid {
+  @extend .st;
+  &:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+  }
 }

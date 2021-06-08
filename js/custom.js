@@ -24,7 +24,7 @@ $(document).ready(function () {
 
   
     
-  
+  /*
 
   setTimeout(function () {
     // Configure/customize these variables.
@@ -67,7 +67,7 @@ $(document).ready(function () {
       return false;
     });
   }, 1000);
-
+*/
 
 
 });
