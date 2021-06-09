@@ -287,7 +287,6 @@ code {
             font-weight: 500;
             font-size: 17px;
             color: #2c3e50;
-            cursor: default;
             margin-bottom: 7px;
           }
           &.scl-lnk {
@@ -626,6 +625,8 @@ code {
         z-index: 9;
       }
       img {
+        margin: auto;
+display: block;
         transition: all 0.2s linear 0s;
         -webkit-transition: all 0.2s linear 0s;
         -moz-transition: all 0.2s linear 0s;
@@ -1123,22 +1124,7 @@ code {
     color: #000000;
   }
 }
-.cntc-page-form-wrap {
-  display: block;
-  width: 480px;
-  position: absolute;
-  top: -460px;
-  left: auto;
-  right: 0;
-  background: #ffffff;
-  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
-  border-radius: 16px;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
-  padding: 40px 50px;
-  z-index: 48;
+.contact-form-wrap{
   .fm-mb {
     margin-bottom: 40px;
   }
@@ -1167,6 +1153,24 @@ code {
       color: #717d89;
     }
   }
+}
+.cntc-page-form-wrap {
+  display: block;
+  width: 480px;
+  position: absolute;
+  top: -460px;
+  left: auto;
+  right: 0;
+  background: #ffffff;
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  padding: 40px 50px;
+  z-index: 48;
+ 
 }
 
 /* solutions page */
@@ -1708,7 +1712,7 @@ code {
 /* industry details */
 .our-expertise-wrap {
   position: relative;
-  padding: 50px 65px;
+  padding: 50px 50px;
   background: #ffffff;
   box-shadow: 8px 8px 24px rgba(216, 215, 215, 0.15);
   border-radius: 8px;
@@ -1801,4 +1805,8 @@ code {
 }
 .inddtlspage .cards6-sec {
   padding: 20px 0;
+}
+
+.hero-sec-new{
+  padding: 0;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="widgets/owl/owl.carousel.min.css" />
     <link rel="stylesheet" href="widgets/owl/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="widgets/intl-tel-input-master/css/intlTelInput.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/style.css">
@@ -23,21 +24,72 @@
     </div>
 
     <div class="inner-body">
-
-        <section class="common-section hero-sec">
-            <div class="container">
+        <section class="common-section hero-sec-new no-padding">
+            <div class="container-fluid no-padding">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="hero-sec-inner">
-                            <div class="ttl-wrapper">
-                                <h1 class="h1 sec-title left light xs-text-center mb-0">Simplified Analytics</h1>
+                        <div id="home-caro" class="carousel slide carousel-fade" data-bs-interval="5000"
+                            data-bs-touch="true" data-bs-ride="carousel">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active hero-sec hero-sec1"
+                                    style="background-image: url('images/home-hero-sec-bg.png');">
+                                    <div class="container">
+                                        <div class="hero-sec-inner">
+                                            <div class="ttl-wrapper">
+                                                <h1 class="h1 sec-title left light xs-text-center mb-0">Simplified
+                                                    Analytics</h1>
+                                            </div>
+                                            <!-- <p class="text-left left p36" style="opacity: 0.79;">
+                                            <span class="xs-text-center d-block">
+                                                We simplify Big Data & AI for <br>accelerated growth
+                                            </span>
+                                        </p> -->
+                                            <button type="button" onclick="location.href='contact.html'"
+                                                class="btn bttn-primary sec-bttn left">Get Started</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item hero-sec hero-sec2"
+                                    style="background-image: url('images/hero-sec2.jpg');">
+                                    <div class="container">
+                                        <div class="hero-sec-inner">
+                                            <div class="ttl-wrapper">
+                                                <h1 class="h1 sec-title left light xs-text-center mb-0">Transform
+                                                    Banking & <br>Finance With AI</h1>
+                                            </div>
+                                            <p class="ttl-p2 text-left">
+                                                Join <b>Tausif Sayyed, Business Head </b>– Spire Data, <br>as he shares
+                                                his insights and advice.
+                                            </p>
+                                            <p class="time-banner text-left">
+                                                6th July, 3PM GST
+                                            </p>
+                                            <button type="button" class="btn bttn-primary sec-bttn left"
+                                                data-bs-toggle="modal" data-bs-target="#register-now-modal">Register
+                                                Now</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <!-- <p class="text-left left p36" style="opacity: 0.79;">
-                                <span class="xs-text-center d-block">
-                                    We simplify Big Data & AI for <br>accelerated growth
-                                </span>
-                            </p> -->
-                            <button type="button" onclick="location.href='contact.html'" class="btn bttn-primary sec-bttn left">Get Started</button>
+                            <div class="container position-relative">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#home-caro" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#home-caro" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                </div>
+                            </div>
+                            <!-- <button class="carousel-control-prev" type="button"
+                                data-bs-target="#home-caro" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#home-caro" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button> -->
                         </div>
                     </div>
                 </div>
@@ -61,427 +113,435 @@
                                     <img src="images/hero_4.svg" alt="Seamless Adoption of AI and ML">
                                     <p class="p">Seamless Adoption of AI and ML</p>
                                 </li>
-                            </ul>                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <section class="common-section first-sec">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="ttl-wrapper mb35">
-                        <h2 class="h2 sec-title">Leverage transformational power of your data with AI   </h2>
-                    </div>
-                    <p class="sec-p">As a business thriving in an information-led world, you either leverage AI and
-                        machine learning algorithms to add value to your business or get left behind. That is why you
-                        need the right data analytics and data science specialist who can see beyond what's visible, cut
-                        through the complexity and find ways to drive exceptional growth. Here, at Spire Data, we do
-                        this and more.</p>
-                    <button type="button" onclick="location.href='about.html'" class="btn bttn-outline-primary sec-bttn">Know
-                            More</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="common-section srvc-sec bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 align-self-center">
-                    <div class="ttl-wrapper">
-                        <h2 class="h2 sec-title light text-left"> <span class="xs-text-center d-block">Services To
-                                <br>Stay Ahead</span></h2>
-                    </div>
-                </div>
-                <div class="col-xl-7 align-self-center">
-                    <div class="srvc-cards-wrapper">
-                        <div class="row hide-mob">
-                            <div class="col-sm-4">
-                                <div class="srvc-card st" onclick="window.open('services.html');">
-                                    <div class="srvc-card-img">
-                                        <img src="images/srvc_1.svg" alt="Data Strategy & Governance">
-                                    </div>
-                                    <p class="p">Data Strategy & Governance</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="srvc-card st" onclick="window.open('services.html');">
-                                    <div class="srvc-card-img">
-                                        <img src="images/srvc_2.svg" alt="BI Augmented Analytics">
-                                    </div>
-                                    <p class="p">BI Augmented Analytics</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="srvc-card st" onclick="window.open('services.html');">
-                                    <div class="srvc-card-img">
-                                        <img src="images/srvc_3.svg" alt="AI & Intelligent Automation">
-                                    </div>
-                                    <p class="p">AI & Intelligent Automation</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="srvc-card st" onclick="window.open('services.html');">
-                                    <div class="srvc-card-img">
-                                        <img src="images/srvc_4.svg" alt="Data Platform & Architecture">
-                                    </div>
-                                    <p class="p">Data Platform & Architecture</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="srvc-card st" onclick="window.open('services.html');">
-                                    <div class="srvc-card-img">
-                                        <img src="images/srvc_5.svg" alt="Cyber Security Analytics">
-                                    </div>
-                                    <p class="p">Cyber Security Analytics</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="srvc-card st" onclick="window.open('services.html');">
-                                    <div class="srvc-card-img">
-                                        <img src="images/srvc_6.svg" alt="AI & Advanced Analytics">
-                                    </div>
-                                    <p class="p">AI & Advanced Analytics</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row hide-desktop">
-                            <div class="col-12 xs-padding-no">
-                                <div class="srvc-cards-carousel owl-carousel owl-theme">
-                                    <div class="item" style="width:220px">
-                                        <div class="srvc-card st" onclick="window.open('services.html');">
-                                            <div class="srvc-card-img">
-                                                <img src="images/srvc_1.svg" alt="Data Strategy & Governance">
-                                            </div>
-                                            <p class="p">Data Strategy & Governance</p>
-                                        </div>
-                                    </div>
-                                    <div class="item" style="width:220px">
-                                        <div class="srvc-card st" onclick="window.open('services.html');">
-                                            <div class="srvc-card-img">
-                                                <img src="images/srvc_2.svg" alt="BI AugmentedAnalytics">
-                                            </div>
-                                            <p class="p">BI AugmentedAnalytics</p>
-                                        </div>
-                                    </div>
-                                    <div class="item" style="width:220px">
-                                        <div class="srvc-card st" onclick="window.open('services.html');">
-                                            <div class="srvc-card-img">
-                                                <img src="images/srvc_3.svg" alt="AI & Intelligent Automation">
-                                            </div>
-                                            <p class="p">AI & Intelligent Automation</p>
-                                        </div>
-                                    </div>
-                                    <div class="item" style="width:220px">
-                                        <div class="srvc-card st" onclick="window.open('services.html');">
-                                            <div class="srvc-card-img">
-                                                <img src="images/srvc_4.svg" alt="Data Platform & Architecture">
-                                            </div>
-                                            <p class="p">Data Platform & Architecture</p>
-                                        </div>
-                                    </div>
-                                    <div class="item" style="width:220px">
-                                        <div class="srvc-card st" onclick="window.open('services.html');">
-                                            <div class="srvc-card-img">
-                                                <img src="images/srvc_5.svg" alt="Cyber Security Analytics">
-                                            </div>
-                                            <p class="p">Cyber Security Analytics</p>
-                                        </div>
-                                    </div>
-                                    <div class="item" style="width:220px">
-                                        <div class="srvc-card st" onclick="window.open('services.html');">
-                                            <div class="srvc-card-img">
-                                                <img src="images/srvc_6.svg" alt="AI & Advanced Analytics">
-                                            </div>
-                                            <p class="p">AI & Advanced Analytics</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="common-section solsns-sec bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ttl-wrapper">
-                        <h2 class="h2 sec-title light left mb-0">Our Solutions</h2>
-                        <p class="p36 light left xs-text-center" style="color: #DBDFE3;">What we can suggest for your business </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="soln-carousel-wrap">
-                        <div class="soln-carousel owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="solns-card d-flex align-items-center"
-                                    onclick="window.open('solutions.html');">
-                                    <div class="solns-img flex-shrink-0">
-                                        <img src="images/sols-card-1.png" alt="Assessment & Build Road Map">
-                                    </div>
-                                    <div class="solns-body flex-grow-1">
-                                        <p class="num">01.</p>
-                                        <p class="ttl">Assessment & Build Road Map</p>
-                                        <p class="p">Where does your data stand? What can it uncover? </p>
-                                        <button type="button" class="btn bttn-outline-primary bttn-sm">Read
-                                            More</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="solns-card d-flex align-items-center"
-                                    onclick="window.open('solutions.html');">
-                                    <div class="solns-img flex-shrink-0">
-                                        <img src="images/sols-card-2.png" alt="Design & Architect">
-                                    </div>
-                                    <div class="solns-body flex-grow-1">
-                                        <p class="num">02.</p>
-                                        <p class="ttl">Design & Architect</p>
-                                        <p class="p">Re-define your approach to implementing and integrating </p>
-                                        <button type="button" class="btn bttn-outline-primary bttn-sm">Read
-                                            More</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="solns-card d-flex align-items-center"
-                                    onclick="window.open('solutions.html');">
-                                    <div class="solns-img flex-shrink-0">
-                                        <img src="images/sols-card-3.png" alt="Build & Administer Analytics">
-                                    </div>
-                                    <div class="solns-body flex-grow-1">
-                                        <p class="num">03.</p>
-                                        <p class="ttl">Build & Administer Analytics</p>
-                                        <p class="p">When you reinvent how data is administered against your </p>
-                                        <button type="button" class="btn bttn-outline-primary bttn-sm">Read
-                                            More</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="solns-card d-flex align-items-center"
-                                    onclick="window.open('solutions.html');">
-                                    <div class="solns-img flex-shrink-0">
-                                        <img src="images/sols-card-4.png" alt="Integrate & Transform">
-                                    </div>
-                                    <div class="solns-body flex-grow-1">
-                                        <p class="num">04.</p>
-                                        <p class="ttl">Integrate & Transform</p>
-                                        <p class="p">Harness what you know about your business, customers, </p>
-                                        <button type="button" class="btn bttn-outline-primary bttn-sm">Read
-                                            More</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="common-section bg-light xs-pb0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ttl-wrapper mb35">
-                        <h2 class="h4 sec-title mb10">Partnering with the best</h2>
-                        <p class="sec-p">We've joined hands with the best in the industry so that we can keep you empowered to <br class="hide-for-mobile"> build robust solutions.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="list-companies-carousel-wrap">
-                        <div class="companies-carousel owl-carousel owl-theme">
-                            <div class="item">
-                                <ul class="list-group list-group-horizontal list-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/elastic_logo.png" alt="Elastic logo">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul class="list-group list-group-horizontal list-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/fivetran_logo.png" alt="Fivetran logo">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul class="list-group list-group-horizontal list-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/nipendo_logo.png" alt="Nipendo logo">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul class="list-group list-group-horizontal list-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/cribl_logo.png" alt="Cribl logo">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul class="list-group list-group-horizontal list-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/ms_logo.png" alt="MS logo">
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="item">
-                                <ul class="list-group list-group-horizontal list-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/3data_logo.png" alt="3data logo">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul class="list-group list-group-horizontal list-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/alteryx_logo.png" alt="Alteryx logo">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul class="list-group list-group-horizontal list-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/snowflake_logo.png" alt="Snowflake logo">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul class="list-group list-group-horizontal list-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/talend_logo.png" alt="Talend logo">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <ul class="list-group list-group-horizontal list-companies">
-                                    <li class="list-group-item">
-                                        <img src="images/AWS_logo.png" alt="AWS logo">
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 xs-no-padding">
-                    <div class="top-cert-wrap">
-                        <h2 class="h4 ttl text-white">Every recognition inspires the next</h2>
-                        <p class="p">We work to help companies win with data and AI. Our achievements are a testament to
-                            this </p>
-                        <div class="top-cert-logo-wrap-row-outer">
-                            <div class="row top-cert-logo-wrap-row justify-content-center">
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-9">
-                                    <div class="recongnition-wrap">
-                                        <img src="images/recongnition1.png" alt="Employees' choice winner">
-                                        <p class="p4">Employees' choice winner</p>
-                                        <p class="p5">Top 10 IT companies(2018)</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-9">
-                                    <div class="recongnition-wrap">
-                                        <img src="images/recongnition2.png" alt="Best channel support Initiatives">
-                                        <p class="p4">Best channel support Initiatives</p>
-                                        <p class="p5">Reseller Middle East Hot 50</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-9">
-                                    <div class="recongnition-wrap">
-                                        <img src="images/recongnition3.png" alt="Best security solution provider">
-                                        <p class="p4">Best security solution provider</p>
-                                        <p class="p5">Reseller Hot 50(2016)</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-9">
-                                    <div class="recongnition-wrap">
-                                        <img src="images/recongnition4.png" alt="Best security service provider">
-                                        <p class="p4">Best security service provider</p>
-                                        <p class="p5">Reseller Middle East Hot 50</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="row top-cert-logo-wrap-row justify-content-center mt-0"
-                                id="view-more-recongnition-wrap">
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-9">
-                                    <div class="recongnition-wrap">
-                                        <img src="images/recongnition5.png" alt="Employees' choice winner 3">
-                                        <p class="p4">Employees' choice winner 3</p>
-                                        <p class="p5">Integrator ICT championship</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-9">
-                                    <div class="recongnition-wrap">
-                                        <img src="images/recongnition6.png" alt="Information Security specialist VAD ">
-                                        <p class="p4">Information Security specialist VAD </p>
-                                        <p class="p5">Integrator ICT champion(2016)</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-9">
-                                    <div class="recongnition-wrap">
-                                        <img src="images/recongnition7.png" alt="Top VAD security services">
-                                        <p class="p4">Top VAD security services</p>
-                                        <p class="p5">Enterprise channel MEA GEC</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-9">
-                                    <div class="recongnition-wrap">
-                                        <img src="images/recongnition8.png" alt="Employees' choice winner">
-                                        <p class="p4">Employees' choice winner</p>
-                                        <p class="p5">Top 10 IT companies(2017)</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-md-6 col-sm-6 col-9">
-                                    <div class="recongnition-wrap">
-                                        <img src="images/recongnition5.png" alt="Top VAD Information security services">
-                                        <p class="p4">Top VAD Information security services</p>
-                                        <p class="p5">Enterprise channel MEA GEC(2017)</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="four-borders hide-for-mobile">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
                             </ul>
                         </div>
-                        <div class="row">
-                            <a href="#" id="view-more-recongnition-btn" class="vmore st"
-                                style="position: relative;z-index: 9;"><span id="view-more-recongnition-span">View
-                                    More</span> <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="common-section first-sec">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="ttl-wrapper mb35">
+                            <h2 class="h2 sec-title">Leverage transformational power of your data with AI </h2>
+                        </div>
+                        <p class="sec-p">As a business thriving in an information-led world, you either leverage AI and
+                            machine learning algorithms to add value to your business or get left behind. That is why
+                            you
+                            need the right data analytics and data science specialist who can see beyond what's visible,
+                            cut
+                            through the complexity and find ways to drive exceptional growth. Here, at Spire Data, we do
+                            this and more.</p>
+                        <button type="button" onclick="location.href='about.html'"
+                            class="btn bttn-outline-primary sec-bttn">Know
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="common-section srvc-sec bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 align-self-center">
+                        <div class="ttl-wrapper">
+                            <h2 class="h2 sec-title light text-left"> <span class="xs-text-center d-block">Services To
+                                    <br>Stay Ahead</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 align-self-center">
+                        <div class="srvc-cards-wrapper">
+                            <div class="row hide-mob">
+                                <div class="col-sm-4">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
+                                        <div class="srvc-card-img">
+                                            <img src="images/srvc_1.svg" alt="Data Strategy & Governance">
+                                        </div>
+                                        <p class="p">Data Strategy & Governance</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
+                                        <div class="srvc-card-img">
+                                            <img src="images/srvc_2.svg" alt="BI Augmented Analytics">
+                                        </div>
+                                        <p class="p">BI Augmented Analytics</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
+                                        <div class="srvc-card-img">
+                                            <img src="images/srvc_3.svg" alt="AI & Intelligent Automation">
+                                        </div>
+                                        <p class="p">AI & Intelligent Automation</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
+                                        <div class="srvc-card-img">
+                                            <img src="images/srvc_4.svg" alt="Data Platform & Architecture">
+                                        </div>
+                                        <p class="p">Data Platform & Architecture</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
+                                        <div class="srvc-card-img">
+                                            <img src="images/srvc_5.svg" alt="Cyber Security Analytics">
+                                        </div>
+                                        <p class="p">Cyber Security Analytics</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="srvc-card st" onclick="window.open('services.html');">
+                                        <div class="srvc-card-img">
+                                            <img src="images/srvc_6.svg" alt="AI & Advanced Analytics">
+                                        </div>
+                                        <p class="p">AI & Advanced Analytics</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row hide-desktop">
+                                <div class="col-12 xs-padding-no">
+                                    <div class="srvc-cards-carousel owl-carousel owl-theme">
+                                        <div class="item" style="width:220px">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_1.svg" alt="Data Strategy & Governance">
+                                                </div>
+                                                <p class="p">Data Strategy & Governance</p>
+                                            </div>
+                                        </div>
+                                        <div class="item" style="width:220px">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_2.svg" alt="BI AugmentedAnalytics">
+                                                </div>
+                                                <p class="p">BI AugmentedAnalytics</p>
+                                            </div>
+                                        </div>
+                                        <div class="item" style="width:220px">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_3.svg" alt="AI & Intelligent Automation">
+                                                </div>
+                                                <p class="p">AI & Intelligent Automation</p>
+                                            </div>
+                                        </div>
+                                        <div class="item" style="width:220px">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_4.svg" alt="Data Platform & Architecture">
+                                                </div>
+                                                <p class="p">Data Platform & Architecture</p>
+                                            </div>
+                                        </div>
+                                        <div class="item" style="width:220px">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_5.svg" alt="Cyber Security Analytics">
+                                                </div>
+                                                <p class="p">Cyber Security Analytics</p>
+                                            </div>
+                                        </div>
+                                        <div class="item" style="width:220px">
+                                            <div class="srvc-card st" onclick="window.open('services.html');">
+                                                <div class="srvc-card-img">
+                                                    <img src="images/srvc_6.svg" alt="AI & Advanced Analytics">
+                                                </div>
+                                                <p class="p">AI & Advanced Analytics</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <!-- <div class="top-cert-logo-wrap">
+        </section>
+
+        <section class="common-section solsns-sec bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ttl-wrapper">
+                            <h2 class="h2 sec-title light left mb-0">Our Solutions</h2>
+                            <p class="p36 light left xs-text-center" style="color: #DBDFE3;">What we can suggest for
+                                your business </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="soln-carousel-wrap">
+                            <div class="soln-carousel owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="solns-card d-flex align-items-center"
+                                        onclick="window.open('solutions.html');">
+                                        <div class="solns-img flex-shrink-0">
+                                            <img src="images/sols-card-1.png" alt="Assessment & Build Road Map">
+                                        </div>
+                                        <div class="solns-body flex-grow-1">
+                                            <p class="num">01.</p>
+                                            <p class="ttl">Assessment & Build Road Map</p>
+                                            <p class="p">Where does your data stand? What can it uncover? </p>
+                                            <button type="button" class="btn bttn-outline-primary bttn-sm">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="solns-card d-flex align-items-center"
+                                        onclick="window.open('solutions.html');">
+                                        <div class="solns-img flex-shrink-0">
+                                            <img src="images/sols-card-2.png" alt="Design & Architect">
+                                        </div>
+                                        <div class="solns-body flex-grow-1">
+                                            <p class="num">02.</p>
+                                            <p class="ttl">Design & Architect</p>
+                                            <p class="p">Re-define your approach to implementing and integrating </p>
+                                            <button type="button" class="btn bttn-outline-primary bttn-sm">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="solns-card d-flex align-items-center"
+                                        onclick="window.open('solutions.html');">
+                                        <div class="solns-img flex-shrink-0">
+                                            <img src="images/sols-card-3.png" alt="Build & Administer Analytics">
+                                        </div>
+                                        <div class="solns-body flex-grow-1">
+                                            <p class="num">03.</p>
+                                            <p class="ttl">Build & Administer Analytics</p>
+                                            <p class="p">When you reinvent how data is administered against your </p>
+                                            <button type="button" class="btn bttn-outline-primary bttn-sm">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="solns-card d-flex align-items-center"
+                                        onclick="window.open('solutions.html');">
+                                        <div class="solns-img flex-shrink-0">
+                                            <img src="images/sols-card-4.png" alt="Integrate & Transform">
+                                        </div>
+                                        <div class="solns-body flex-grow-1">
+                                            <p class="num">04.</p>
+                                            <p class="ttl">Integrate & Transform</p>
+                                            <p class="p">Harness what you know about your business, customers, </p>
+                                            <button type="button" class="btn bttn-outline-primary bttn-sm">Read
+                                                More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="common-section bg-light xs-pb0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ttl-wrapper mb35">
+                            <h2 class="h4 sec-title mb10">Partnering with the best</h2>
+                            <p class="sec-p">We've joined hands with the best in the industry so that we can keep you
+                                empowered to <br class="hide-for-mobile"> build robust solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="list-companies-carousel-wrap">
+                            <div class="companies-carousel owl-carousel owl-theme">
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/elastic_logo.png" alt="Elastic logo">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/fivetran_logo.png" alt="Fivetran logo">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/nipendo_logo.png" alt="Nipendo logo">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/cribl_logo.png" alt="Cribl logo">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/ms_logo.png" alt="MS logo">
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/3data_logo.png" alt="3data logo">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/alteryx_logo.png" alt="Alteryx logo">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/snowflake_logo.png" alt="Snowflake logo">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/talend_logo.png" alt="Talend logo">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <ul class="list-group list-group-horizontal list-companies">
+                                        <li class="list-group-item">
+                                            <img src="images/AWS_logo.png" alt="AWS logo">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 xs-no-padding">
+                        <div class="top-cert-wrap">
+                            <h2 class="h4 ttl text-white">Every recognition inspires the next</h2>
+                            <p class="p">We work to help companies win with data and AI. Our achievements are a
+                                testament to
+                                this </p>
+                            <div class="top-cert-logo-wrap-row-outer">
+                                <div class="row top-cert-logo-wrap-row justify-content-center">
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-9">
+                                        <div class="recongnition-wrap">
+                                            <img src="images/recongnition1.png" alt="Employees' choice winner">
+                                            <p class="p4">Employees' choice winner</p>
+                                            <p class="p5">Top 10 IT companies(2018)</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-9">
+                                        <div class="recongnition-wrap">
+                                            <img src="images/recongnition2.png" alt="Best channel support Initiatives">
+                                            <p class="p4">Best channel support Initiatives</p>
+                                            <p class="p5">Reseller Middle East Hot 50</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-9">
+                                        <div class="recongnition-wrap">
+                                            <img src="images/recongnition3.png" alt="Best security solution provider">
+                                            <p class="p4">Best security solution provider</p>
+                                            <p class="p5">Reseller Hot 50(2016)</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-9">
+                                        <div class="recongnition-wrap">
+                                            <img src="images/recongnition4.png" alt="Best security service provider">
+                                            <p class="p4">Best security service provider</p>
+                                            <p class="p5">Reseller Middle East Hot 50</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row top-cert-logo-wrap-row justify-content-center mt-0"
+                                    id="view-more-recongnition-wrap">
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-9">
+                                        <div class="recongnition-wrap">
+                                            <img src="images/recongnition5.png" alt="Employees' choice winner 3">
+                                            <p class="p4">Employees' choice winner 3</p>
+                                            <p class="p5">Integrator ICT championship</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-9">
+                                        <div class="recongnition-wrap">
+                                            <img src="images/recongnition6.png"
+                                                alt="Information Security specialist VAD ">
+                                            <p class="p4">Information Security specialist VAD </p>
+                                            <p class="p5">Integrator ICT champion(2016)</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-9">
+                                        <div class="recongnition-wrap">
+                                            <img src="images/recongnition7.png" alt="Top VAD security services">
+                                            <p class="p4">Top VAD security services</p>
+                                            <p class="p5">Enterprise channel MEA GEC</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-9">
+                                        <div class="recongnition-wrap">
+                                            <img src="images/recongnition8.png" alt="Employees' choice winner">
+                                            <p class="p4">Employees' choice winner</p>
+                                            <p class="p5">Top 10 IT companies(2017)</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-9">
+                                        <div class="recongnition-wrap">
+                                            <img src="images/recongnition5.png"
+                                                alt="Top VAD Information security services">
+                                            <p class="p4">Top VAD Information security services</p>
+                                            <p class="p5">Enterprise channel MEA GEC(2017)</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="four-borders hide-for-mobile">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <a href="#" id="view-more-recongnition-btn" class="vmore st"
+                                    style="position: relative;z-index: 9;"><span id="view-more-recongnition-span">View
+                                        More</span> <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <!-- <div class="top-cert-logo-wrap">
                                 <div class="recog-carousel owl-carousel owl-theme">
                                     <div class="item">
                                         <ul class="list-group list-group-horizontal top-cert-companies">
@@ -548,31 +608,140 @@
                                     </div>
                                 </div>
                             </div> -->
-                    <!-- <a href="" class="vmore st">View More <i class="fas fa-long-arrow-alt-right"></i></a> -->
+                        <!-- <a href="" class="vmore st">View More <i class="fas fa-long-arrow-alt-right"></i></a> -->
 
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     </div>
 
     <div class="common-footer-wrap"></div>
 
+    <!-- register-now-modal -->
+    <div class="modal fade register-now-modal" id="register-now-modal" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body position-relative">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="h5">Don't miss out</h5>
+                    <p class="p4">Enter the details below!</p>
+
+                    <form method="post" action="registerMail.php" class="contact-form-wrap" id="register-form">
+                        <div class="fm-mb">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Your name*"
+                                tabindex="1" required>
+                        </div>
+                        <div class="fm-mb">
+                            <input type="text" class="form-control" name="designation" id="designation"
+                                placeholder="Designation*" tabindex="2" required>
+                        </div>
+                        <div class="fm-mb">
+                            <input type="text" class="form-control" name="company" id="company"
+                                placeholder="Company Name*" tabindex="3" required>
+                        </div>
+                        <div class="fm-mb">
+                            <input type="email" class="form-control" name="email_id" id="email_id"
+                                placeholder="Company Email*" tabindex="4" required>
+                        </div>
+                        <div class="fm-mb form-group-wrap-tel-outer">
+                            <label class="form-label">Phone Number*</label>
+                            <div class="tele-num-wrap">
+                                <input class="input-control-wrap" tabindex="5" type="text" placeholder="" id="ph_no"
+                                    name="ph_no">
+                            </div> <input type="hidden" name="countryCode" id="countryCode">
+                        </div>
+                        <div class="fm-mb">
+                            <label class="form-label">Why are you attending this webinar?*</label>
+                            <select class="form-select form-control bg-white" name="attending" id="attending" tabindex="6">
+                                <option value="Personal" selected>Personal</option>
+                                <option value="Business">Business</option>
+                            </select>
+                        </div>
+                         <div class="fm-mb text-center">
+                        <button type="submit" class="btn bttn-primary" style="margin: auto !important;" tabindex="7">Register Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="enquiry-form-modal modal fade contact-modal" id="mail-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content" style="background: #F7F9FD;">
+                <div class="modal-body contact-form">
+                    <div class="container-fluid">
+                        <div class="form-row">
+                            <div class="col-md-12 text-center">
+                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <div class="modal-head">
+                                    <img src="images/logo.svg" alt="Modal-img" class="modal-logo" />
+                                </div>
+                                <h4 class="h4">Thank you!</h4>
+                                <p class="p4">For making enquiry. <br> We will get back to you soon!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="enquiry-form-modal modal fade contact-modal" id="mail-modal" tabindex="-1" role="dialog" aria-labelledby="mail-modal">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content" style="background: #F7F9FD;">
+                <div class="modal-body contact-form">
+                    <div class="container-fluid">
+                        <div class="form-row">
+                            <div class="col-md-12 text-center">
+                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <div class="modal-head">
+                                    <img src="images/logo.svg" alt="Modal-img" class="modal-logo" />
+                                </div>
+                                <h4 class="h4">Thank you!</h4>
+                                <p class="p4">For making enquiry. <br> We will get back to you soon!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="widgets/owl/owl.carousel.min.js"></script>
+    <script src="widgets/validation/jquery.validate.min.js"></script>
+    <script src="widgets/validation/custome-validation.js"></script>
+    <script src="widgets/intl-tel-input-master/js/intlTelInput.min.js" type="text/javascript"></script>
     <script src="js/custom.js"></script>
     <script>
         $(document).ready(function () {
             console.log(123);
             $("#view-more-recongnition-wrap").hide();
             $("#view-more-recongnition-span").text("View More");
-            $("#view-more-recongnition-btn").click(function (e7) { 
+            $("#view-more-recongnition-btn").click(function (e7) {
                 $("#view-more-recongnition-wrap").toggle();
                 $("#view-more-recongnition-span").text("View More" ? "View Less" : "View More");
-                e7.preventDefault();                
+                e7.preventDefault();
             });
+      //for contact form
+      var mailModal = new bootstrap.Modal(document.getElementById('mail-modal'));
+            var url_msg = window.location.href;
+            var ext_msg = url_msg.split('?').pop();
+            if (ext_msg == 'succ=true') {
+                // $('#mail-modal').modal('show')
+                mailModal.show();
+                setTimeout(function(){ 
+                    mailModal.hide();
+                 }, 3000);
+
+            }
+            
         });
     </script>
 </body>

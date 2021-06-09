@@ -48,12 +48,12 @@
                                     <div class="col-sm-6">
                                         <nav class="nav">
                                             <a class="nav-link st ttl" href="industry.html" >Industries </a>                                            
-                                                <a class="nav-link st" href="error404.html">Retail &amp; E-commerce</a>
-                                                <a class="nav-link st" href="error404.html">Banking &amp; Finance</a>
-                                                <a class="nav-link st" href="error404.html">Telecom </a>
-                                                <a class="nav-link st" href="error404.html">Government</a>
-                                                <a class="nav-link st" href="error404.html">Oil &amp; Gas</a>
-                                                <a class="nav-link st" href="error404.html">Marketing </a>
+                                                <a class="nav-link st" href="industry-retail-ecommerce.html">Retail &amp; E-commerce</a>
+                                                <a class="nav-link st" href="industry-banking-finance.html">Banking &amp; Finance</a>
+                                                <a class="nav-link st" href="industry-telecom.html">Telecom </a>
+                                                <a class="nav-link st" href="industry-government.html">Government</a>
+                                                <a class="nav-link st" href="industry-oil-gas.html">Oil &amp; Gas</a>
+                                                <a class="nav-link st" href="industry-marketing.html">Marketing </a>
                                         </nav>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <nav class="nav">
-                                            <a class="nav-link st ttl" href="#" style="pointer-events: none;">Connect with us </a>
+                                            <a class="nav-link st ttl" href="#" style="pointer-events: none; cursor: default;">Connect with us </a>
                                             <a class="nav-link st scl-lnk" target="_blank"
                                                 href="https://www.linkedin.com/company/spire-solutions/mycompany/"><i class="fab fa-linkedin-in"></i></a>
                                             <!-- <a class="nav-link st scl-lnk" target="_blank"
@@ -101,3 +101,21 @@
         </div>
     </div>
 </footer>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //active tab
+        var wid = $(window).width();        
+            var pageURL = document.location.href.match(/[^\/]+$/)[0];
+            //alert(pageURL);  
+            $('.footer-main-nav-wrap .nav .nav-link').each(function () {
+                var href = $(this).attr('href');
+                if (href === pageURL) {
+                    $('a.nav-link').removeClass('active-a');
+                    $(this).addClass('text-success-nav');
+                }
+            });
+
+    });
+
+</script>
