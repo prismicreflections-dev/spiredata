@@ -1559,6 +1559,9 @@
   .hide-after-xs:after{
     display: none !important;
   }
+  .cont-map-sec iframe {
+    height: 360px !important;
+}
 }
 
 @media only screen and (min-width: 576px) {

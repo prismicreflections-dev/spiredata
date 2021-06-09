@@ -1,11 +1,9 @@
 <?php
-  
-  /* check values in posted form fields */
-  $name = $_POST['name'];
-  $email = $_POST['email_id'];
-  $ph_no = $_POST['ph_no'];
-  $company = $_POST['company'];
-  $message = $_POST['message'];
+  $name = isset($_POST['name']) ? $_POST['name'] : '';
+  $email = isset($_POST['email_id']) ? $_POST['email_id'] : '';
+  $ph_no = isset($_POST['ph_no']) ? $_POST['ph_no'] : '';
+  $company = isset($_POST['company']) ? $_POST['company'] : '';
+  $message = isset($_POST['message']) ? $_POST['message'] : '';
 
    /* sending mail      */
     $headers = "MIME-Version: 1.0\r\n";
