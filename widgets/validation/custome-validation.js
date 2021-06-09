@@ -5,7 +5,7 @@ $(document).ready(function () {
         required: true,
         minlength: 2,
       },
-      email: {
+      email_id: {
         required: true,
         email: true,
       },
@@ -22,7 +22,7 @@ $(document).ready(function () {
         required: "Please Enter Full Name",
         minlenght: "Please Enter At Least 2 Character",
       },
-      email: {
+      email_id: {
         required: "Please Enter Email ID",
         email: "Please Enter Email ID",
       },

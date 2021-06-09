@@ -1392,10 +1392,10 @@
       }
     }
   }
-  .srvcpage{
+  .srvcpage {
     .cards6-sec.bg-dark {
       div.row.cards6-sec-row.justify-content-center {
-        div.col-lg-4.col-md-4{
+        div.col-lg-4.col-md-4 {
           position: relative;
           border: 0 !important;
           &::after {
@@ -1408,14 +1408,14 @@
             bottom: 0px;
             width: 1px;
             height: 60px;
-            background: rgba(255,255,255,0.5);
+            background: rgba(255, 255, 255, 0.5);
             z-index: 25;
-        }
-        &.xs-last-border-adj-none{
-          &::after{
-            display: none !important;
           }
-        }
+          &.xs-last-border-adj-none {
+            &::after {
+              display: none !important;
+            }
+          }
         }
       }
     }
@@ -1477,10 +1477,10 @@
       }
       .h5 {
         margin-bottom: 2px;
-    }
-    .p4{
-      margin-bottom: 50px;
-    }
+      }
+      .p4 {
+        margin-bottom: 50px;
+      }
     }
   }
   .cards6-industry .h5 {
@@ -1505,9 +1505,9 @@
         margin-left: 0;
         width: 70px;
         position: absolute;
-top: 0;
-left: 0;
-z-index: 3;
+        top: 0;
+        left: 0;
+        z-index: 3;
       }
     }
   }
@@ -1518,34 +1518,46 @@ z-index: 3;
       box-shadow: none;
       margin: 20px 10px 0 !important;
       .ttl.h4-48.text-left {
-        
       }
     }
   }
-  .indus-cards6-sec{
-    .col-lg-4.col-md-4.px-0{
+  .indus-cards6-sec {
+    .col-lg-4.col-md-4.px-0 {
       max-width: 250px !important;
       position: relative;
       &:after {
         content: "";
-position: absolute;
-z-index: 3;
-left: auto;
-top: 20px;
-right: 26px;
-bottom: 0px;
-width: 1px;
-height: 83px;
-background: rgba(255,255,255,0.5);
-z-index: 25;
+        position: absolute;
+        z-index: 3;
+        left: auto;
+        top: 20px;
+        right: 26px;
+        bottom: 0px;
+        width: 1px;
+        height: 83px;
+        background: rgba(255, 255, 255, 0.5);
+        z-index: 25;
       }
     }
-    .cards6-industry{
+    .cards6-industry {
       margin: 0;
-      img{
-        height: 110px;width: auto;
+      img {
+        height: 110px;
+        width: auto;
       }
     }
+  }
+  .inddtlspage {
+    .cards6-industry .link {
+      position: absolute;
+      bottom: 0;
+      right: 10px;
+      color: #21d885;
+      z-index: 50;
+    }
+  }
+  .hide-after-xs:after{
+    display: none !important;
   }
 }
 
@@ -1780,8 +1792,9 @@ z-index: 25;
     width: 100px;
     left: 200px;
   }
-  .our-expertise-wrap .our-expertise-ttl::after {right: -14px;}
-  
+  .our-expertise-wrap .our-expertise-ttl::after {
+    right: -14px;
+  }
 }
 
 @media (max-width: 991.98px) and (min-width: 768px) {
