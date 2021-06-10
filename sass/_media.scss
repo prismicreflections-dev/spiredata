@@ -986,7 +986,7 @@
   .common-footer .footer-wrap .footer-logo {
     display: block;
     height: auto;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     margin-left: 20px;
   }
   .register-now-modal {
@@ -1131,18 +1131,7 @@
         }
       }
     }
-  }
-  .contact-form-wrap {
-    .fm-mb {
-      position: relative;
-    }
-    label.error {
-      position: absolute;
-      bottom: -20px;
-      left: 3px;
-      z-index: 3;
-    }
-  }
+  } 
 }
 @media only screen and (max-width: 767px) {
   .event-sec-3 {
@@ -1979,6 +1968,16 @@
   .powerof-ai-card.d-flex .powerof-ai-card-body .ttl {
     font-size: 18px;
     margin-bottom: 10px;
+  }
+  .powerof-ai-card .d-flex .powerof-ai-card-body.flex-grow-1 .ttl {
+    max-width: 200px;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
   }
 }
 

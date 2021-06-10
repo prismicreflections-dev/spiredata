@@ -907,12 +907,20 @@ div[onclick] {
 .contact-form-wrap {
   max-width: 380px;
   margin: 30px auto 0;
+  .fm-mb {
+    position: relative;
+  }
   label.error {
     color: #dc3545;
     font-size: 14px;
     padding-left: 10px;
+    position: absolute;
+    bottom: -20px;
+    left: 3px;
+    z-index: 3;
   }
 }
+
 
 .form-group-wrap-tel-outer {
   .intl-tel-input {
@@ -922,9 +930,6 @@ div[onclick] {
       left: -9px;
       background: transparent;
     }
-    &.allow-dropdown .flag-container:hover .selected-flag {
-      background-color: transparent;
-      }
   }
   .flag-container {
     margin-left: 10px;
