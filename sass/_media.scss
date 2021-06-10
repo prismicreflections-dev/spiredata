@@ -216,6 +216,10 @@
 }
 
 @media (max-width: 1399px) and (min-width: 1200px) {
+  .common-header .navbar .pr-nav-item .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .first-sec .ttl-wrapper .sec-title,
   .first-sec .sec-p {
     max-width: 700px;
@@ -307,6 +311,9 @@
     background-size: 70%;
     left: -10px;
     bottom: -37px;
+  }
+  .benefits-sec-wrap .benefitst-card-adj::after {
+    margin-left: 190px;
   }
 }
 
@@ -572,9 +579,6 @@
     padding-left: 0;
     display: block !important;
   }
-  br.hide-for-mobile {
-    display: none !important;
-  }
   .common-header .navbar .navbar-brand {
     height: 42px;
   }
@@ -804,7 +808,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .xs-mb20{
+  .xs-mb20 {
     margin-bottom: 20px !important;
   }
   .xs-mrl-10 {
@@ -985,8 +989,8 @@
     margin-bottom: 0;
     margin-left: 20px;
   }
-  .register-now-modal{
-    .modal-content{
+  .register-now-modal {
+    .modal-content {
       .h5 {
         text-align: center;
         margin-top: 15px;
@@ -1002,13 +1006,84 @@
     }
   }
   .explore-srvc-carousel-wrap {
-    .explore-srvc-card{
+    .explore-srvc-card {
       text-align: center;
     }
-    .explore-srvc-card-img{
+    .explore-srvc-card-img {
       margin-left: auto;
       margin-right: auto;
     }
+  }
+  .event-sec-card {
+    .d-flex.align-items-center {
+      overflow: hidden;
+      border-radius: 20px;
+      border-top-left-radius: 20px;
+      display: block !important;
+      padding: 0 0px 30px;
+      .flex-shrink-0 {
+        text-align: center;
+        margin-bottom: 40px;
+        .card-img-new {
+          width: 100%;
+          border-radius: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+        }
+      }
+    }
+  }
+  .event-sec-2 .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+  }
+  .carouselEvent-outer{
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 70px;
+  }
+  .event-sec-card .flex-grow-1 .carouselEvent-wrap {
+    max-width: 560px;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+  .event-sec-card .flex-grow-1 .carouselEvent-wrap ul{white-space: nowrap;}
+  .event-sec-card2 .card-body {
+    padding: 20px;
+  }
+  .event-sec-card .flex-grow-1 ul li {
+    font-size: 14px;
+    padding-right: 20px;
+    &:first-child::after {
+      content: "";
+      height: 20px;
+      width: 0;
+      border-left: 1px solid rgba(0,0,0,0.41);
+      z-index: 5;
+      position: absolute;
+      top: 0;
+      right: 5px;
+  }
+  }
+  .event-sec-card2 .card-body ul li {
+    font-size: 14px;
+    padding-right: 20px;
+    &:first-child::after {
+      content: "";
+      height: 20px;
+      width: 0;
+      border-left: 1px solid rgba(0,0,0,0.41);
+      z-index: 5;
+      position: absolute;
+      top: 0;
+      right: 5px;
+  }
+  }
+  .event-sec-card2 .card-body p {
+    font-size: 14px;
+    line-height: 24px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -1057,8 +1132,26 @@
       }
     }
   }
+  .contact-form-wrap {
+    .fm-mb {
+      position: relative;
+    }
+    label.error {
+      position: absolute;
+      bottom: -20px;
+      left: 3px;
+      z-index: 3;
+    }
+  }
 }
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
+  .event-sec-3 {
+    border-radius: 0 !important ;
+    -webkit-border-radius: 0 !important ;
+    -moz-border-radius: 0 !important ;
+    -ms-border-radius: 0 !important ;
+    -o-border-radius: 0 !important ;
+  }
   .navbar-toggler.navbar-toggler-xs {
     position: absolute;
     top: 15px;
@@ -1247,8 +1340,8 @@
     width: 100%;
     img {
       object-fit: contain;
-      height: 290px;
-      width: auto;
+      height: auto;
+      width: 100%;
       margin: auto;
       border-radius: 10px;
       -webkit-border-radius: 10px;
@@ -1485,7 +1578,7 @@
     }
     .col-lg-4.col-md-4 {
       max-width: 217px;
-      margin: auto 0 0;    
+      margin: auto 0 0;
     }
   }
   .common-section.bg-light.powerof-ai-sec {
@@ -1498,6 +1591,7 @@
     .benefitst-card-adj {
       width: auto;
       padding-left: 90px;
+      text-align: left;
       &::after {
         width: 30px;
         left: 34px;
@@ -1506,13 +1600,15 @@
         transform: rotate(90deg) translateY(-50%);
         transform-origin: 0 0;
         margin-top: 48px;
+        margin-left: 0 !important;
         -webkit-transform: rotate(90deg) translateY(-50%);
         -moz-transform: rotate(90deg) translateY(-50%);
         -ms-transform: rotate(90deg) translateY(-50%);
         -o-transform: rotate(90deg) translateY(-50%);
-}
+      }
       .h5 {
         margin-bottom: 2px;
+        min-height: inherit;
       }
       .p4 {
         margin-bottom: 50px;
@@ -1609,28 +1705,28 @@
       -o-transform: translateX(-50%) scale(0.8);
       left: 50%;
       right: auto;
-bottom: 100px;
-}
-    .carousel-item.hero-sec{
+      bottom: 100px;
+    }
+    .carousel-item.hero-sec {
       min-height: 470px;
     }
-    .carousel-item.hero-sec > .container{
+    .carousel-item.hero-sec > .container {
       padding: 0 15px !important;
     }
-    .carousel-item.hero-sec > .container .h1 br{
-      display: none; 
+    .carousel-item.hero-sec > .container .h1 br {
+      display: none;
     }
-    .carousel-item.hero-sec1{
-      .hero-sec-inner{
+    .carousel-item.hero-sec1 {
+      .hero-sec-inner {
         margin-top: 80px;
       }
     }
     .time-banner.text-left,
-    .ttl-p2.text-left{
+    .ttl-p2.text-left {
       font-size: 16px;
       line-height: 26px;
       text-align: center !important;
-      br{
+      br {
         display: none;
       }
     }
@@ -1651,7 +1747,7 @@ bottom: 100px;
       -moz-transform: scale(0.8);
       -ms-transform: scale(0.8);
       -o-transform: scale(0.8);
-}
+    }
     .hero-list-wrap-outer {
       position: relative;
       overflow-x: auto;
@@ -1661,7 +1757,7 @@ bottom: 100px;
       padding-left: 30px;
     }
   }
-  .common-section.hero-sec-new.no-padding{
+  .common-section.hero-sec-new.no-padding {
     overflow: hidden;
     position: relative;
   }
@@ -1887,6 +1983,14 @@ bottom: 100px;
 }
 
 @media (max-width: 1199.98px) and (min-width: 992px) {
+  .common-header .navbar .pr-nav-item .nav-link {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+  }
+  .common-header .navbar .pr-nav-item .btn {
+    margin-left: 4px;
+  }
   .lg-text-center {
     text-align: center !important;
   }
@@ -1928,6 +2032,9 @@ bottom: 100px;
       -ms-transform: scale(0.8);
       -o-transform: scale(0.8);
     }
+  }
+  .benefits-sec-wrap .benefitst-card-adj::after {
+    margin-left: 110px;
   }
 }
 
@@ -2023,9 +2130,41 @@ bottom: 100px;
       -moz-transform: scale(0.8);
       -ms-transform: scale(0.8);
       -o-transform: scale(0.8);
-      .list-group-item{
+      .list-group-item {
         padding: 20px !important;
       }
     }
+  }
+  .benefits-sec-wrap .benefitst-card-adj::after {
+    margin-left: 110px;
+  }
+  .benefits-sec-wrap .benefitst-card-adj .h5 {
+    margin-bottom: 20px;
+    min-height: 50px;
+  }
+  .event-sec-card {
+    .d-flex.align-items-center {
+      overflow: hidden;
+      border-radius: 20px;
+      border-top-left-radius: 150px;
+      display: block !important;
+      padding: 0 0px 30px;
+      .flex-shrink-0 {
+        text-align: center;
+        margin-bottom: 40px;
+        .card-img-new {
+          border-radius: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+        }
+      }
+    }
+  }
+  .navbar-nav.ms-auto.custom-navbar-nav-adj {
+    border-top: 1px solid #e4dede;
+    padding-top: 10px;
+    margin-top: 20px;
   }
 }

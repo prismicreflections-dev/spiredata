@@ -1183,6 +1183,7 @@ display: block;
     }
   }
 }
+.eventpage.abtpage,
 .srvcpage,
 .industrypage {
   .hero-sec {
@@ -1191,7 +1192,11 @@ display: block;
     }
   }
 }
-
+.eventpage.abtpage{
+  .hero-sec {
+  background: #2c3e50 url("../images/event-bg.jpg");
+  }
+}
 /* Partners page */
 .prtnrpage {
   .hero-sec {
@@ -1284,6 +1289,15 @@ display: block;
   display: block;
   max-width: 345px;
   margin: auto;
+  &:hover{
+    .ourteam-card-inf{
+      transform: translateY(10px);
+      -webkit-transform: translateY(10px);
+      -moz-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+      -o-transform: translateY(10px);
+}
+  }
   .ourteam-card-img {
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -1291,12 +1305,10 @@ display: block;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
     overflow: hidden;
-    height: 340px;
-    width: 100%;
     img {
       object-fit: cover;
-      height: 100%;
-      width: auto;
+      height: auto;
+      width: 100%;
     }
   }
   .ourteam-card-inf {
@@ -1314,7 +1326,8 @@ display: block;
     -ms-border-radius: 0 36px 0 36px;
     -o-border-radius: 0 36px 0 36px;
     z-index: 2;
-    .grt {
+    @extend .st;
+    .grt{
       font-weight: normal;
       font-size: 22px;
       line-height: 28px;
@@ -1335,7 +1348,7 @@ display: block;
     .desig {
       font-weight: 600;
       font-size: 18px;
-      line-height: 20px;
+      line-height: 28px;
       color: #65727f;
       text-align: center;
     }
@@ -1498,7 +1511,7 @@ display: block;
   .twocol-card {
     padding-right: 60px;
     .ttl {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
     .p {
       margin-bottom: 30px;
@@ -1545,8 +1558,9 @@ display: block;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   overflow: hidden;
-  padding: 50px 35px;
+  padding: 50px 35px 40px;
   margin: 15px 0px 30px;
+  height: 100%;
   &:hover{
     .powerof-ai-card-icon {
       transform: scale(1.03);

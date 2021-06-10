@@ -20,7 +20,7 @@
             . "<br><b>Company:-&nbsp;</b>" . $company . "\n\n"
             . "<br><b>Email:-&nbsp;</b>" . $email . "\n\n"
             . "<br><b>Mobile:-&nbsp;</b>" .$countryCode. "-" . $ph_no . "\n\n"            
-            . "<br><b>attending:-&nbsp;</b>" . $attending . "\n\n";
+            . "<br><b>Attending:-&nbsp;</b>" . $attending . "\n\n";
     $mailSend1 = mail($mailTo, $subject, $message, $headers);
 
     $headers1 = "MIME-Version: 1.0\r\n";
