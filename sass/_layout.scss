@@ -1750,14 +1750,16 @@ display: block;
   //   z-index: 1;
   // }
   .our-expertise-img {
-    margin-top: 40px;
+    margin-top: 10px;
+width: 86px;
+margin-left: 14px;
   }
   .our-expertise-ttl {
     position: relative;
     &::after{
       content: '';
       position: absolute;
-      right: 0;
+      right: -20px;
       width: 1px;
       height: 247px;
       background: rgba(0,0,0,0.17);
@@ -1784,7 +1786,7 @@ display: block;
     }
   }
   .our-expertise-blk {
-    margin: auto 30px;
+    margin: auto 50px;
     .our-expertise-list {
       margin-bottom: 22px;      
 	display: flex;
@@ -1799,7 +1801,7 @@ display: block;
       }
       .our-expertise-list-body {
         font-weight: 500;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 28px;
         color: #6d7a86;
       }
