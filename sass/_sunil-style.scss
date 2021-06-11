@@ -55,8 +55,8 @@
 .mw-380 {
   max-width: 380px;
 }
-.mw-426 {
-  max-width: 426px;
+.mw-470 {
+  max-width: 470px;
 }
 
 @-webkit-keyframes a {
@@ -750,7 +750,7 @@ div[onclick] {
       top: 60px;
       left: 50%;
       transform: translateX(-50%);
-      margin-left: 230px;
+      margin-left: 220px;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -758,7 +758,6 @@ div[onclick] {
     }
     .benefit-img {
       margin-bottom: 25px;
-      margin-left: 20px;
     }
     .h5 {
       margin-bottom: 26px;
@@ -1181,7 +1180,69 @@ color: rgba(44, 62, 80, 0.5);
       }
     }
   }
-
+  .powerof-ai-carousel-wrap{
+    .powerof-ai-carousel{
+      .owl-stage-outer {
+        .owl-stage {
+          .owl-item {
+            .powerof-ai-card:after{
+             content: '';   
+             position: absolute;
+             top: 15px;
+             left: 0;
+             bottom: 15px;
+             width: 8px;
+             height: calc(100% - 45px);
+             z-index: 9;
+             background: #FBBC05;
+             border-bottom-left-radius: 8px;
+              border-top-left-radius: 8px;
+            }
+            &:nth-child(1){
+              .powerof-ai-card:after{
+                background: #FBBC05;
+              }
+            }
+            &:nth-child(2){
+              .powerof-ai-card:after{
+                background: #21D885;
+              }
+            }
+            &:nth-child(3){
+              .powerof-ai-card:after{
+                background: #01c3ff;
+              }
+            }
+            &:nth-child(4){
+              .powerof-ai-card:after{
+                background: #f87306;
+              }
+            }
+            &:nth-child(5){
+              .powerof-ai-card:after{
+                background: #21D885;
+              }
+            }
+            &:nth-child(6){
+              .powerof-ai-card:after{
+                background: #01c3ff;
+              }
+            }
+            &:nth-child(7){
+              .powerof-ai-card:after{
+                background: #FBBC05;
+              }
+            }
+            &:nth-child(8){
+              .powerof-ai-card:after{
+                background: #21D885;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
  
 
 //   .owl-carousel .owl-item {

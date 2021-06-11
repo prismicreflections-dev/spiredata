@@ -91,7 +91,7 @@
 
   /* service details */
   .srvcpage-sec1 .twocol-card {
-    padding-right: 80px;
+    padding-right: 30px;
   }
   .srvcpage-sec1 .twocol-card-img {
     max-width: 650px;
@@ -1132,6 +1132,9 @@
       }
     }
   } 
+  .powerof-ai-carousel-wrap{
+    margin-left: -10px;margin-right: -10px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .event-sec-3 {
@@ -1483,7 +1486,7 @@
     z-index: 99;
   }
   .powerof-ai-card {
-    padding: 20px;
+    padding: 20px 20px 20px 30px;
     min-height: inherit;
     .d-flex {
       position: relative;
@@ -1492,13 +1495,10 @@
         top: 0;
         left: 0;
         z-index: 3;
-        img {
-          width: 54px;
-        }
       }
       .powerof-ai-card-body.flex-grow-1 {
         .ttl {
-          margin-left: 70px;
+          margin-left: 45px;
           font-size: 22px;
           line-height: 30px;
         }
@@ -1623,7 +1623,6 @@
     .benefitst-card-adj {
       .benefit-img {
         margin-bottom: 25px;
-        margin-left: 0;
         width: 70px;
         position: absolute;
         top: 0;
@@ -2103,7 +2102,6 @@
   }
   .benefits-sec-wrap .benefitst-card-adj .benefit-img {
     margin-bottom: 25px;
-    margin-left: 0;
     width: 100px;
   }
   .common-section.hero-sec-new.no-padding {
@@ -2164,6 +2162,13 @@
   .navbar-nav.ms-auto.custom-navbar-nav-adj {
     border-top: 1px solid #e4dede;
     padding-top: 10px;
+    margin-top: 20px;
+  }
+  .common-section.bg-light.powerof-ai-sec{
+    border-top-left-radius: 0;
+  }
+  .footer-main-nav-wrap.px-0 {
+    padding-left: 50px !important;
     margin-top: 20px;
   }
 }

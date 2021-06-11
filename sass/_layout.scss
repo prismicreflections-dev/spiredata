@@ -1509,7 +1509,7 @@ display: block;
 /* srvc page*/
 .srvcpage-sec1 {
   .twocol-card {
-    padding-right: 60px;
+    padding-right: 30px;
     .ttl {
       margin-bottom: 30px;
     }
@@ -1558,7 +1558,7 @@ display: block;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   overflow: hidden;
-  padding: 50px 35px 40px;
+  padding: 36px 30px 30px 55px;
   margin: 15px 0px 30px;
   height: 100%;
   &:hover{
@@ -1589,6 +1589,7 @@ display: block;
       line-height: 28px;
       color: #2c3e50;
       margin-bottom: 15px;
+      margin-top: -3px;
     }
     .p {
       margin-bottom: 0;
