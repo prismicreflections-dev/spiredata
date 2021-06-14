@@ -226,6 +226,14 @@ code {
   .footer-wrap {
     padding: 60px 0;
     border-bottom: 1px solid #f6f6f6;
+    p{
+      font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 25px;
+letter-spacing: -0.204545px;
+color: #717D89;
+    }
     .footer-logo {
       display: block;
       height: 54px;
@@ -267,8 +275,16 @@ code {
         }
       }
     }
+    .footer-hr {
+      width: 100%;
+      margin: 8px 15px 13px 15px;
+      border-color: #F0F0F0;
+    }
+    .footer-p-bottom{
+      margin-left: 13px;margin-top: 6px;
+    }
     .footer-main-nav-wrap {
-      padding-left: 100px;
+      padding-left: 0px;
       .nav {
         .nav-link {
           display: block;
@@ -291,10 +307,11 @@ code {
           }
           &.scl-lnk {
             width: auto;
-            color: #8d9eae;
-            font-size: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
+color: #2C3E50;
+font-size: 26px;
+padding-left: 15px;
+padding-right: 20px;
+margin-top: -6px;
             &:hover,
             &:focus,
             &.active {
