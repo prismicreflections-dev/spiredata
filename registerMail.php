@@ -13,7 +13,7 @@
     $headers .= "X-Priority: 1\r\n";
     $headers .= "X-MSMail-Priority: High\r\n";
     $headers .= 'From:SpireData<unnita@spiresolutions.com>';
-    $mailTo = 'unnita@spiresolutions.com, tausif@spiresolutions.com, sunil@prismicreflections.com, mail@spiredata.ai';
+    $mailTo = 'mail@spiredata.ai, unnita@spiresolutions.com, tausif@spiresolutions.com';
     $subject = "New Webinar Registration";
     $message = "<br><b>Name :-&nbsp;</b>" . $name . "\n\n"
             . "<br><b>Designation:-&nbsp;</b>" . $designation . "\n\n"
